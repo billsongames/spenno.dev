@@ -4,7 +4,7 @@
 }
 
 .title__container {
-  padding: 50px;
+  padding: 32px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -15,7 +15,7 @@
 
 .title {
   font-family: PermanentMarker-Regular, serif;
-  font-size: 24px;
+  font-size: 16px;
   color: whitesmoke;
 }
 
@@ -29,5 +29,5 @@
 }
 
 .title__underConstruction__text {
-  font-size: 24px;
+  font-size: 18px;
 }

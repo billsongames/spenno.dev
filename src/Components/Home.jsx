@@ -16,14 +16,11 @@ const Home = () => {
         <div>
           My name is Paul and I'm a software developer
         </div>
-        <div>
-          This is my website...
-        </div>
         <div className="title__underConstruction">
-          <img src={under_construction} alt="Under Construction" width="400px"/>
+          <img src={under_construction} alt="Under Construction" width="250px"/>
         </div>
         <div className="title__underConstruction__text">  
-          Under construction
+          Website under construction
         </div>
       </div>  
     </div>
