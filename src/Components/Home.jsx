@@ -14,7 +14,7 @@ const Home = () => {
           Hi,
         </div>
         <div>
-          My name is Paul and I'm a software developer.
+          My name is Paul and I'm a software developer
         </div>
         <div className="title__underConstruction">
           <img src={under_construction} alt="Under Construction" width="250px"/>
