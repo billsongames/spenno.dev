@@ -1,14 +1,14 @@
 import React from "react";
 
 import "./home.css"
-import under_construction from "../assets/images/underConstruction.jpg"
+import under_construction from "../../assets/images/underConstruction.jpg"
+
 
 const Home = () => {
 
 
-
   return(
-    <div className="title__container" >
+    <div className="title__container">
       <div className="title">
         <div>
           Hi,
@@ -17,7 +17,11 @@ const Home = () => {
           My name is Paul and I'm a software developer
         </div>
         <div className="title__underConstruction">
-          <img src={under_construction} alt="Under Construction" width="250px"/>
+          <img 
+            src={under_construction}
+            alt="Under Construction"
+            width="250px"
+          />
         </div>
         <div className="title__underConstruction__text">  
           Website under construction

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PermanentMarker-Regular";
-  src: local("PermanentMarker-Regular"), url(../assets/fonts/PermanentMarker-Regular.ttf);
+  src: local("PermanentMarker-Regular"), url(../../assets/fonts/PermanentMarker-Regular.ttf);
 }
 
 .title__container {
