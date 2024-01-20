@@ -1,15 +1,11 @@
 import React from "react";
 
-const Intro = () => {
-
+const Projects = () => {
   return(
     <div>
-      Intro blurb
+      Projects
     </div>
   )
-
-
-
 }
 
-export default Intro
+export default Projects

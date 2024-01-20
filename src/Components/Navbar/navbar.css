@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: local("PermanentMarker-Regular"), url(../../assets/fonts/PermanentMarker-Regular.ttf);
+}
+
+.navbar__container{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar__title{
+  margin: 12px;
+  font-family: PermanentMarker-Regular, serif;
+  font-size: 26px;
+  color: whitesmoke;
+}
+.navbar__links{
+  padding: 0px 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar__linkButton{
+  margin: 12px;
+  padding: 8px;
+  background-color: #282c34;
+  border: none;
+  border-radius: 12px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.navbar__linkButton:hover{
+  background-color: #101010;
+}
+
+.navbar__linkButton:mou{
+  background-color: #101010;
+  
+}
+
+.navbar__linkItem{
+  padding: 0px 16px;
+  font-family: PermanentMarker-Regular, serif;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+

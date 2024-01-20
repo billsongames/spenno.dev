@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: local("PermanentMarker-Regular"), url(../../assets/fonts/PermanentMarker-Regular.ttf);
+}
+
+.title__container {
+  text-align: center;
+  padding: 32px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: solid whitesmoke 2px;
+  border-radius: 8px;
+}
+
+.title {
+  font-family: PermanentMarker-Regular, serif;
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+.title__underConstruction {
+  margin: 12px;
+  align-content: center;
+}
+
+.title__underConstruction > img {
+  border-radius: 8px;
+}
+
+.title__underConstruction__text {
+  font-size: 18px;
+}
