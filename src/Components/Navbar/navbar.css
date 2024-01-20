@@ -28,12 +28,17 @@
   background-color: #282c34;
   border: none;
   border-radius: 12px;
-  cursor: pointer
+  transition-duration: 0.2s;
+  cursor: pointer;
 }
 
 .navbar__linkButton:hover{
   background-color: #101010;
-  transition-duration: 0.2s;
+}
+
+.navbar__linkButton:mou{
+  background-color: #101010;
+  
 }
 
 .navbar__linkItem{
@@ -42,4 +47,5 @@
   font-size: 18px;
   color: whitesmoke;
 }
+
 
