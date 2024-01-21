@@ -2,39 +2,55 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./navbar.css"
+import profile_pic from "../../assets/images/profile/ps.jpeg"
 
 const Navbar = () => {
 
   return(
     <div className="navbar__container">
-      <div className="navbar__title">
-        Paul Spencer
+
+      <div>
+        <Link to = {"/"} style={{ textDecoration: 'none' }}>
+          <div className="navbar__titleContainer">
+            <img className="navbar__titleProfilePic" src={profile_pic}/>
+              <div className="navbar__title">
+                Paul Spencer
+              </div> 
+          </div>  
+        </Link>
+
       </div>
+
       <div className="navbar__links">
-        <div>
-          <button className="navbar__linkButton">
-            <div className="navbar__linkItem">
-              About
-            </div>            
-          </button>
-        </div>
 
         <div>
-          <Link to = {"/projects"}>
-          <button className="navbar__linkButton">
-            <div className="navbar__linkItem">
-              Projects
-            </div>            
-          </button>
+          <Link to = {"/about"} style={{ textDecoration: 'none' }}>
+            <button className="navbar__linkButton">
+              <div className="navbar__linkItem">
+                About
+              </div>            
+            </button>
           </Link>
         </div>
 
         <div>
-          <button className="navbar__linkButton">
-            <div className="navbar__linkItem">
-              Contact
-            </div>            
-          </button>
+          <Link to = {"/projects"} style={{ textDecoration: 'none' }}>
+            <button className="navbar__linkButton">
+              <div className="navbar__linkItem">
+                Projects
+              </div>            
+            </button>
+          </Link>
+        </div>
+
+        <div>
+          <Link to = {"/contact"} style={{ textDecoration: 'none' }}>
+            <button className="navbar__linkButton">
+              <div className="navbar__linkItem">
+                Contact
+              </div>            
+            </button>
+          </Link>
         </div>
 
         <div>
@@ -44,10 +60,6 @@ const Navbar = () => {
             </div>            
           </button>
         </div>
-
-
-
-
       </div>
     </div>  
   )

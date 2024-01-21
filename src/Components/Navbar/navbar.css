@@ -10,20 +10,48 @@
   justify-content: center;
 }
 
-.navbar__title{
-  margin: 12px;
-  font-family: PermanentMarker-Regular, serif;
-  font-size: 26px;
-  color: whitesmoke;
+.navbar__titleContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+.navbar__titleProfilePic{
+  margin: 12px;
+  width: 56px;
+  border-radius: 100px
+}
+
+.navbar__title{
+  text-align: left;
+  padding: 0px 20px;
+  font-family: PermanentMarker-Regular, serif;
+  font-size: 18px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+
+.navbar__titleButton{
+  margin: 16px;
+  padding: 8px;
+  background-color: #101010;
+  border: none;
+  border-radius: 12px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
 .navbar__links{
   padding: 0px 32px;
   display: flex;
   flex-direction: row;
+  align-items: center
 }
 
 .navbar__linkButton{
-  margin: 12px;
+  margin: 16px;
   padding: 8px;
   background-color: #282c34;
   border: none;
@@ -37,8 +65,7 @@
 }
 
 .navbar__linkButton:mou{
-  background-color: #101010;
-  
+  background-color: #101010;  
 }
 
 .navbar__linkItem{
