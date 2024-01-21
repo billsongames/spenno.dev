@@ -14,7 +14,7 @@ const UnderConstruction = () => {
           Hi,
         </div>
         <div>
-          My name is Paul and I'm a software developer
+          I'm Paul and I'm a software developer
         </div>
         <div className="title__underConstruction">
           <img 
