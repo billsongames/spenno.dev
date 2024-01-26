@@ -1,16 +1,16 @@
 import React from "react";
 
-import "./home.css"
+import "./nasa.css"
 
 
-const Home = () => {
+const NASA = () => {
 
 
   return(
     <div className="home__container">
-      Home
+      NASA
     </div>
   )
 }
 
-export default Home
+export default NASA

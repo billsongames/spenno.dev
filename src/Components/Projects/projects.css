@@ -1,0 +1,11 @@
+.projects__container{
+  color: whitesmoke;
+  background-color: red;
+}
+
+.projects__nav{
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: whitesmoke;
+}

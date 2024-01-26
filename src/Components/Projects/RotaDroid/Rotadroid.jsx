@@ -1,16 +1,16 @@
 import React from "react";
 
-import "./home.css"
+import "./rotadroid.css"
 
 
-const Home = () => {
+const Rotadroid = () => {
 
 
   return(
     <div className="home__container">
-      Home
+      Rotadroid
     </div>
   )
 }
 
-export default Home
+export default Rotadroid

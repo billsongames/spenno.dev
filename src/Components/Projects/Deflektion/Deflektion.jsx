@@ -1,16 +1,16 @@
 import React from "react";
 
-import "./home.css"
+import "./deflektion.css"
 
 
-const Home = () => {
+const Deflektion = () => {
 
 
   return(
     <div className="home__container">
-      Home
+      Deflektion
     </div>
   )
 }
 
-export default Home
+export default Deflektion
