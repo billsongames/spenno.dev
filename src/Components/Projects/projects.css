@@ -1,11 +1,38 @@
-.projects__container{
+.projects__container {
   color: whitesmoke;
-  background-color: red;
 }
 
-.projects__nav{
-   display: flex;
+.projects__nav {
+  background-color: red;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   color: whitesmoke;
+}
+
+.projectTile {
+  padding: 16px;
+  width: 320px;
+  height: 200px;
+  position: relative
+}
+
+.projectLogo {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: fit;
+}
+
+.projectDescription {
+  background-color: blue;
+  color: black;
+  text-align: center;
+  position: absolute;
+  display: none
+}
+
+.projectLogo:hover+div {
+  display: block;
 }

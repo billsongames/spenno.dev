@@ -8,7 +8,6 @@ const Navbar = () => {
 
   return(
     <div className="navbar__container">
-
       <div>
         <Link to = {"/"} style={{ textDecoration: 'none' }}>
           <div className="navbar__titleContainer">

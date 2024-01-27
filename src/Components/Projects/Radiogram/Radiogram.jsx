@@ -16,7 +16,11 @@ const Radiogram = () => {
         <div className="projects__nav">
           <div>
             <Link to ={"../radiogram"}>
-              radiogram
+              <button className="navbar__linkButton">
+                <div className="navbar__linkItem">
+                  Radiogram
+                </div>            
+              </button>
             </Link>          
           </div>
           <div>
