@@ -14,14 +14,16 @@ const Projects = () => {
           </Link>          
         </div>
         <div>
-          NASA
+        <Link to ={"NASA"}>
+            NASA
+          </Link>   
         </div>
-        <div>
-          Deflektion
-        </div>
-        <div>
-          Rotadroid
-        </div>
+        <Link to ={"deflektion"}>
+            Deflektion
+          </Link>   
+          <Link to ={"rotadroid"}>
+            rotadroid
+          </Link>   
       </div>
     </div>
   )

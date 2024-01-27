@@ -6,7 +6,7 @@ const About = () => {
   return(
     <div className="about__container">
       <div className="about__text">
-         Hi. I'm Paul Spencer, a software developer based in Doncaster, UK. I enjoy building interactive and intuitive user experiences.
+        Hi. I'm Paul Spencer, a software developer based in Doncaster, UK. I enjoy building interactive and intuitive user experiences.
       </div>
       <div className="about__text">
         I also have proficiency developing video games with two full releases on Android and PC platforms.
