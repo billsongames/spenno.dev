@@ -4,7 +4,9 @@
 }
 
 .navbar__container{
-  margin: 0;
+  margin: auto;
+  width: 80%;
+  max-width: 1000px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -53,7 +55,7 @@
 .navbar__linkButton{
   margin: 16px;
   padding: 8px;
-  background-color: #282c34;
+  background-color: #101010;
   border: none;
   border-radius: 12px;
   transition-duration: 0.2s;
@@ -61,12 +63,12 @@
 }
 
 .navbar__linkButton:hover{
-  background-color: #101010;
+  background-color: #282c34;
 }
 
-.navbar__linkButton:mou{
+/* .navbar__linkButton:mou{
   background-color: #101010;  
-}
+} */
 
 .navbar__linkItem{
   padding: 0px 16px;

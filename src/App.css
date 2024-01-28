@@ -1,5 +1,16 @@
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: local("PermanentMarker-Regular"), url(./assets/fonts/PermanentMarker-Regular.ttf);
+}
+
 .App {  
   text-align: center;
+}
+
+.section__title{
+  font-family: PermanentMarker-Regular, serif;
+  font-size: 32px;  
+  color: whitesmoke;
 }
 
 

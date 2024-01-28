@@ -1,4 +1,14 @@
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: local("PermanentMarker-Regular"), url(../../../assets/fonts/PermanentMarker-Regular.ttf);
+}
+
 .radiogram__container{
-  background-color: blue;
+  margin: auto;
+  width: 80%;
+  max-width: 1000px;
+  font-family: PermanentMarker-Regular, serif;
+  font-size: 20px;
   color: whitesmoke;
+  text-align: left;
 }

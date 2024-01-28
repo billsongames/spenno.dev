@@ -12,10 +12,10 @@ import nasa_logo from "../../assets/images/nasa/NASA_logo.png"
 const Projects = () => {
   return(
     <div className="projects__container">
-      <div className="projects___title">
+      <div className="section__title">
         Projects
       </div>
-      <div>
+      <div className="projects__intro">
         Here are some of the projects I've worked on...
       </div>
       
@@ -28,8 +28,8 @@ const Projects = () => {
               <div className="projectDescription__text">
                 A radio streaming app to enhance your listening pleasure
               </div>
-              <div>
-                <Link to ={"radiogram"} className="projectLink">
+              <div className="projectLink">
+                <Link to ={"radiogram"}>
                   <button className="navbar__linkButton">
                     <div className="navbar__linkItem">
                       More info
@@ -48,8 +48,8 @@ const Projects = () => {
               <div className="projectDescription__text">
               Marvel at the beauty of the universe with a NASA image search
               </div>
-              <div>
-                <Link to ={"nasa"} className="projectLink">
+              <div className="projectLink">
+                <Link to ={"nasa"}>
                   <button className="navbar__linkButton">
                     <div className="navbar__linkItem">
                       More info
@@ -60,9 +60,7 @@ const Projects = () => {
             </div>                   
           </div>
         </div>
-      </div>
 
-      <div className="projects__nav">
         <div className="projectTile">
           <div className="projectLogo">
             <img src = {deflektion_logo} />
@@ -70,8 +68,8 @@ const Projects = () => {
               <div className="projectDescription__text">
                 A retro infused brain workout that makes you think ahead
               </div>
-              <div>
-                <Link to ={"deflektion"} className="projectLink">
+              <div className="projectLink">
+                <Link to ={"deflektion"}>
                   <button className="navbar__linkButton">
                     <div className="navbar__linkItem">
                       More info
@@ -90,8 +88,8 @@ const Projects = () => {
               <div className="projectDescription__text">
                 A new spin on an old genre
               </div>
-              <div>
-                <Link to ={"rotadroid"} className="projectLink">
+              <div className="projectLink">
+                <Link to ={"rotadroid"}>
                   <button className="navbar__linkButton">
                     <div className="navbar__linkItem">
                       More info
@@ -101,9 +99,9 @@ const Projects = () => {
               </div>            
             </div>                   
           </div>
-</div>
-</div> 
-    </div>       
+        </div>
+      </div>
+    </div>         
   )
 }
 

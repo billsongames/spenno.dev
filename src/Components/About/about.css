@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: local("PermanentMarker-Regular"), url(../../assets/fonts/PermanentMarker-Regular.ttf);
+}
+
+.about__container{
+  margin: auto;
+  width: 80%;
+  max-width: 1000px
+}
 .about__text{
+  padding: 16px;
+  text-align: left;
+  font-family: PermanentMarker-Regular, serif;
+  font-size: 20px;
   color: whitesmoke;
 }
