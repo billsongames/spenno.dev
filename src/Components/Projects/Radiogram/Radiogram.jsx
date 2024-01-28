@@ -7,8 +7,6 @@ import "./radiogram.css"
 
 
 const Radiogram = () => {
-
-
   return(
     <div className="project__pageContainer">
       <div className="section__title">

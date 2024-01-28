@@ -9,7 +9,7 @@
   max-width: 1000px
 }
 .about__text{
-  padding: 16px;
+  padding: 16px 0px;
   text-align: left;
   font-family: PermanentMarker-Regular, serif;
   font-size: 20px;
