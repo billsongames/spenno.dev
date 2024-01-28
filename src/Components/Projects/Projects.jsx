@@ -20,40 +20,90 @@ const Projects = () => {
       </div>
       
       <div className="projects__nav">
+
         <div className="projectTile">
-          <Link to ={"radiogram"} >
-            <img className="projectLogo" src = {radiogram_logo} />
-          </Link>
-          <div className="projectDescription">
-            A radio streaming app to enhance your listening pleasure hjochjshcc kcjoncnc lcpasjcpac
-          </div>                   
+          <div className="projectLogo">
+            <img src = {radiogram_logo} />
+            <div className="projectDescription">
+              <div className="projectDescription__text">
+                A radio streaming app to enhance your listening pleasure
+              </div>
+              <div>
+                <Link to ={"radiogram"} className="projectLink">
+                  <button className="navbar__linkButton">
+                    <div className="navbar__linkItem">
+                      More info
+                    </div>            
+                  </button>
+                </Link>
+              </div>            
+            </div>                   
+          </div>
         </div>
+
         <div className="projectTile">
-          <Link to ={"nasa"}>
-            <div className="projectTile__img">
-              <img className="projectLogo" src = {nasa_logo} />
-            </div>
-          </Link>          
+          <div className="projectLogo">
+            <img src = {nasa_logo} />
+            <div className="projectDescription">
+              <div className="projectDescription__text">
+              Marvel at the beauty of the universe with a NASA image search
+              </div>
+              <div>
+                <Link to ={"nasa"} className="projectLink">
+                  <button className="navbar__linkButton">
+                    <div className="navbar__linkItem">
+                      More info
+                    </div>            
+                  </button>
+                </Link>
+              </div>            
+            </div>                   
+          </div>
         </div>
       </div>
 
       <div className="projects__nav">
         <div className="projectTile">
-          <Link to ={"deflektion"}>
-            <div className="projectTile__img">
-              <img className="projectLogo" src = {deflektion_logo} />
-            </div>
-          </Link>          
+          <div className="projectLogo">
+            <img src = {deflektion_logo} />
+            <div className="projectDescription">
+              <div className="projectDescription__text">
+                A retro infused brain workout that makes you think ahead
+              </div>
+              <div>
+                <Link to ={"deflektion"} className="projectLink">
+                  <button className="navbar__linkButton">
+                    <div className="navbar__linkItem">
+                      More info
+                    </div>            
+                  </button>
+                </Link>
+              </div>            
+            </div>                   
+          </div>
         </div>
+
         <div className="projectTile">
-          <Link to ={"rotadroid"}>
-            <div className="projectTile__img">
-              <img className="projectLogo" src = {rotadroid_logo} />
-            </div>
-          </Link>          
-        </div>
-      </div>
-    </div>
+          <div className="projectLogo">
+            <img src = {rotadroid_logo} />
+            <div className="projectDescription">
+              <div className="projectDescription__text">
+                A new spin on an old genre
+              </div>
+              <div>
+                <Link to ={"rotadroid"} className="projectLink">
+                  <button className="navbar__linkButton">
+                    <div className="navbar__linkItem">
+                      More info
+                    </div>            
+                  </button>
+                </Link>
+              </div>            
+            </div>                   
+          </div>
+</div>
+</div> 
+    </div>       
   )
 }
 

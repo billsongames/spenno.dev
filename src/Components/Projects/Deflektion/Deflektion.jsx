@@ -7,7 +7,7 @@ const Deflektion = () => {
 
 
   return(
-    <div className="home__container">
+    <div className="project__container">
       Deflektion
     </div>
   )
