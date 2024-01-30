@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "PermanentMarker-Regular";
-  src: local("PermanentMarker-Regular"), url(../../../assets/fonts/PermanentMarker-Regular.ttf);
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"), url(../../../assets/fonts/Rubik-Regular.ttf);
 }
 
 .radiogram__container{
   margin: auto;
   width: 80%;
   max-width: 1000px;
-  font-family: PermanentMarker-Regular, serif;
+  font-family: Rubik-Regular, serif;
   font-size: 20px;
   color: whitesmoke;
   text-align: left;

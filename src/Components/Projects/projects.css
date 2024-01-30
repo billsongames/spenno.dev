@@ -1,14 +1,13 @@
 @font-face {
-  font-family: "PermanentMarker-Regular";
-  src: local("PermanentMarker-Regular"), url(../../assets/fonts/PermanentMarker-Regular.ttf);
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
 }
 
 .projects__intro{
   margin-top: 0px;
   margin-bottom: 32px;
   padding: 16px;
-  font-family: PermanentMarker-Regular, serif;
-  font-size: 20px;
+  font-family: Rubik-Regular, serif;
 }
 
 .projects__container {
@@ -63,12 +62,17 @@
   z-index: 10;
 }
 
+.projectDescription__title{
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
 .projectDescription__text{
   padding: 16px;
-  font-size:20px;
-  font-weight: bold;
+  font-size:16px;
   color: whitesmoke;
-  text-align: center;
+  text-align: left;
 }
 
 .projectLogo:hover .projectDescription {
@@ -82,7 +86,7 @@
   margin: auto;
   width: 80%;
   max-width: 1000px;
-  font-family: PermanentMarker-Regular, serif;
+  font-family: Rubik-Regular, serif;
   font-size: 20px;
   color: whitesmoke;
   text-align: left;

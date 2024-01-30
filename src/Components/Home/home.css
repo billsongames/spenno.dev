@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "PermanentMarker-Regular";
-  src: local("PermanentMarker-Regular"), url(../../assets/fonts/PermanentMarker-Regular.ttf);
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
 }
 
 .title__container {
@@ -14,7 +14,7 @@
 }
 
 .title {
-  font-family: PermanentMarker-Regular, serif;
+  font-family: Rubik-Regular, serif;
   font-size: 16px;
   color: whitesmoke;
 }

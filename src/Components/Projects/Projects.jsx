@@ -26,6 +26,9 @@ const Projects = () => {
             <img src = {radiogram_logo} />
             <div className="projectDescription">
               <div className="projectDescription__text">
+                <div className="projectDescription__title">
+                  radiogram
+                </div>
                 A radio streaming app to enhance your listening pleasure
               </div>
               <div className="projectLink">
@@ -46,7 +49,10 @@ const Projects = () => {
             <img src = {nasa_logo} />
             <div className="projectDescription">
               <div className="projectDescription__text">
-              Marvel at the beauty of the universe with a NASA image search
+                <div className="projectDescription__title">
+                  NASA Image Search
+                </div>
+                Marvel at the beauty of the universe with a NASA image search
               </div>
               <div className="projectLink">
                 <Link to ={"nasa"}>
@@ -66,6 +72,9 @@ const Projects = () => {
             <img src = {deflektion_logo} />
             <div className="projectDescription">
               <div className="projectDescription__text">
+                <div className="projectDescription__title">
+                  Deflektion
+                </div>
                 A retro infused brain workout that makes you think ahead
               </div>
               <div className="projectLink">
@@ -86,6 +95,9 @@ const Projects = () => {
             <img src = {rotadroid_logo} />
             <div className="projectDescription">
               <div className="projectDescription__text">
+                <div className="projectDescription__title">
+                  RotaDroid
+                </div>
                 A new spin on an old genre
               </div>
               <div className="projectLink">
