@@ -12,6 +12,16 @@ const Radiogram = () => {
       <div className="section__title">
         Radiogram
       </div>
+      <ul className="project__featureList">
+        <li>Working from home?</li>
+        <li>Bit quiet in the "office"?</li>
+        <li>Tired of listening to kids screaming?</li>
+        <li>Fed up of next doors noisy power tools?</li>
+        <li>All this modern music sounds the same?</li>
+      </ul>
+      <div className="about__text">
+        Try radiogram to enhance your listening pleasure.
+      </div>
       <div className="about__text">
         Radiogram is the first app I coded after graduating from my Command Shift software engineering course.
         It's a web based internet radio streaming app and allows the user to search and listen to radio stations based on genre or a free text search feature.
