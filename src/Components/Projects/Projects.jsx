@@ -20,98 +20,102 @@ const Projects = () => {
       </div>
       
       <div className="projects__nav">
-
-        <div className="projectTile">
-          <div className="projectLogo">
-            <img src = {radiogram_logo} />
-            <div className="projectDescription">
-              <div className="projectDescription__text">
-                <div className="projectDescription__title">
-                  radiogram
+        <div className="projects__row">
+          <div className="projectTile">
+            <div className="projectLogo">
+              <img src = {radiogram_logo} />
+              <div className="projectTileDescription">
+                <div className="projectTileDescription__text">
+                  <div className="projectTileDescription__title">
+                    radiogram
+                  </div>
+                  A radio streaming app to enhance your listening pleasure
                 </div>
-                A radio streaming app to enhance your listening pleasure
-              </div>
-              <div className="projectLink">
-                <Link to ={"radiogram"}>
-                  <button className="navbar__linkButton">
-                    <div className="navbar__linkItem">
-                      More info
-                    </div>            
-                  </button>
-                </Link>
-              </div>            
-            </div>                   
+                <div className="projectLink">
+                  <Link to ={"radiogram"}>
+                    <button className="navbar__linkButton">
+                      <div className="navbar__linkItem">
+                        More info
+                      </div>            
+                    </button>
+                  </Link>
+                </div>            
+              </div>                   
+            </div>
+          </div>
+
+          <div className="projectTile">
+            <div className="projectLogo">
+              <img src = {nasa_logo} />
+              <div className="projectTileDescription">
+                <div className="projectTileDescription__text">
+                  <div className="projectTileDescription__title">
+                    NASA Image Search
+                  </div>
+                  Marvel at the beauty of the universe with a NASA image search
+                </div>
+                <div className="projectLink">
+                  <Link to ={"nasa"}>
+                    <button className="navbar__linkButton">
+                      <div className="navbar__linkItem">
+                        More info
+                      </div>            
+                    </button>
+                  </Link>
+                </div>            
+              </div>                   
+            </div>
           </div>
         </div>
 
-        <div className="projectTile">
-          <div className="projectLogo">
-            <img src = {nasa_logo} />
-            <div className="projectDescription">
-              <div className="projectDescription__text">
-                <div className="projectDescription__title">
-                  NASA Image Search
+        <div className="projects__row">
+          <div className="projectTile">
+            <div className="projectLogo">
+              <img src = {deflektion_logo} />
+              <div className="projectTileDescription">
+                <div className="projectTileDescription__text">
+                  <div className="projectTileDescription__title">
+                    Deflektion
+                  </div>
+                  A retro infused brain workout that makes you think ahead
                 </div>
-                Marvel at the beauty of the universe with a NASA image search
-              </div>
-              <div className="projectLink">
-                <Link to ={"nasa"}>
-                  <button className="navbar__linkButton">
-                    <div className="navbar__linkItem">
-                      More info
-                    </div>            
-                  </button>
-                </Link>
-              </div>            
-            </div>                   
+                <div className="projectLink">
+                  <Link to ={"deflektion"}>
+                    <button className="navbar__linkButton">
+                      <div className="navbar__linkItem">
+                        More info
+                      </div>            
+                    </button>
+                  </Link>
+                </div>            
+              </div>                   
+            </div>
+          </div>
+
+          <div className="projectTile">
+            <div className="projectLogo">
+              <img src = {rotadroid_logo} />
+              <div className="projectTileDescription">
+                <div className="projectTileDescription__text">
+                  <div className="projectTileDescription__title">
+                    RotaDroid
+                  </div>
+                  A new spin on an old genre
+                </div>
+                <div className="projectLink">
+                  <Link to ={"rotadroid"}>
+                    <button className="navbar__linkButton">
+                      <div className="navbar__linkItem">
+                        More info
+                      </div>            
+                    </button>
+                  </Link>
+                </div>            
+              </div>                   
+            </div>
           </div>
         </div>
 
-        <div className="projectTile">
-          <div className="projectLogo">
-            <img src = {deflektion_logo} />
-            <div className="projectDescription">
-              <div className="projectDescription__text">
-                <div className="projectDescription__title">
-                  Deflektion
-                </div>
-                A retro infused brain workout that makes you think ahead
-              </div>
-              <div className="projectLink">
-                <Link to ={"deflektion"}>
-                  <button className="navbar__linkButton">
-                    <div className="navbar__linkItem">
-                      More info
-                    </div>            
-                  </button>
-                </Link>
-              </div>            
-            </div>                   
-          </div>
-        </div>
-
-        <div className="projectTile">
-          <div className="projectLogo">
-            <img src = {rotadroid_logo} />
-            <div className="projectDescription">
-              <div className="projectDescription__text">
-                <div className="projectDescription__title">
-                  RotaDroid
-                </div>
-                A new spin on an old genre
-              </div>
-              <div className="projectLink">
-                <Link to ={"rotadroid"}>
-                  <button className="navbar__linkButton">
-                    <div className="navbar__linkItem">
-                      More info
-                    </div>            
-                  </button>
-                </Link>
-              </div>            
-            </div>                   
-          </div>
-        </div>
       </div>
     </div>         
   )

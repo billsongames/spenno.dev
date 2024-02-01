@@ -12,8 +12,6 @@
 
 .projects__container {
   margin: auto;
-  width: 80%;
-  max-width: 1000px;
   height: 400px;
   color: whitesmoke;
 }
@@ -21,10 +19,17 @@
 .projects__nav {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   color: whitesmoke;
+}
+
+.projects__row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
 .projectTile {
@@ -47,10 +52,13 @@
 
 .projectLogo > img{
   border-radius: 12px;
+  width: 320px;
+  height: 240px;
+  object-fit: cover;
   width: 100%
 }
 
-.projectDescription {
+.projectTileDescription {
   background-color: black;
   border-radius: 12px;
   width: 100%;
@@ -62,20 +70,20 @@
   z-index: 10;
 }
 
-.projectDescription__title{
+.projectTileDescription__title{
   font-size: 28px;
   font-weight: bold;
   padding-bottom: 12px;
 }
 
-.projectDescription__text{
+.projectTileDescription__text{
   padding: 16px;
   font-size:16px;
   color: whitesmoke;
   text-align: left;
 }
 
-.projectLogo:hover .projectDescription {
+.projectLogo:hover .projectTileDescription {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -84,16 +92,46 @@
 
 .project__pageContainer{
   margin: auto;
-  width: 80%;
-  max-width: 1000px;
   font-family: Rubik-Regular, serif;
   font-size: 20px;
   color: whitesmoke;
   text-align: left;
 }
 
+.project__pageDisplay{
+  display: grid;
+  grid-template-columns: 85% 15%;
+  padding: 16px 0px
+}
+
+.project__description{
+  padding: 0px 16px 0px 0px;
+  border-right: solid;
+}
+
 .project__featureList{
   list-style: square;
   font-size:16px;
+}
+
+.project__techUsedContainer{
+  padding: 0px 16px
+}
+
+/* .project__techUsedEntry{
+  display: grid;
+  grid-template-columns: 80% 20%;
+} */
+
+.project__techLogo{
+  width: 100%;
+  min-width: 100px;
+  max-width: 200px
+}
+
+.project__techText{
+  padding: 0px 16px;
+  font-size: 16px;
+  align-content: center;
 }
 
