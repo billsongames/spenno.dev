@@ -1,4 +1,5 @@
 import React from "react";
+import Gallery from "../../Gallery/Gallery";
 
 import godot_logo from "../../../assets/images/tech_logos/godot_logo.png"
 
@@ -6,6 +7,9 @@ import "./rotadroid.css"
 
 
 const RotaDroid = () => {
+  const appName = "rotadroid"
+  const imageTotal = 6
+
   return(
     <div className="project__pageContainer">
       <div className="section__title">
@@ -38,6 +42,9 @@ const RotaDroid = () => {
           </div>  
           <div className="about__text">
             Links to itch.io page
+          </div>
+          <div>
+          <Gallery appName={appName} imageTotal={imageTotal} />
           </div>
         </div>
 

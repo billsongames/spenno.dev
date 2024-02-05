@@ -1,27 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
 import "../projectGallery.css"
 
-import image_1 from "../../../assets/images/deflektion/deflektion_1.png"
-import image_2 from "../../../assets/images/deflektion/deflektion_2.png"
-import image_3 from "../../../assets/images/deflektion/deflektion_3.png"
-import image_4 from "../../../assets/images/deflektion/deflektion_4.png"
-import image_5 from "../../../assets/images/deflektion/deflektion_5.png"
-import image_6 from "../../../assets/images/deflektion/deflektion_6.png"
+import image_1 from "../../../assets/images/rotadroid/rotadroid_1.png"
+import image_2 from "../../../assets/images/rotadroid/rotadroid_2.png"
+import image_3 from "../../../assets/images/rotadroid/rotadroid_3.png"
+import image_4 from "../../../assets/images/rotadroid/rotadroid_4.png"
+import image_5 from "../../../assets/images/rotadroid/rotadroid_5.png"
+import image_6 from "../../../assets/images/rotadroid/rotadroid_6.png"
 
 
-const DeflektionGallery = () => {
-
-  
+const RotaDroidGallery = () => {
 
   return(
     <div className="projectGallery">
-      <Carousel
-        thumbWidth={100}
-      >
+      <Carousel>
         <div className='projectGalleryImage'>
           <img src={image_1}/>
         </div>
@@ -46,4 +42,4 @@ const DeflektionGallery = () => {
 
 }
 
-export default DeflektionGallery
+export default RotaDroidGallery

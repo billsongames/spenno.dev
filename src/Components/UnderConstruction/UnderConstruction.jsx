@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./underConstruction.css"
-import under_construction from "../../assets/images/underConstruction.jpg"
 
 
 const UnderConstruction = () => {
@@ -18,7 +17,7 @@ const UnderConstruction = () => {
         </div>
         <div className="title__underConstruction">
           <img 
-            src={under_construction}
+            src="/assets/images/underConstruction.jpg"
             alt="Under Construction"
             width="250px"
           />

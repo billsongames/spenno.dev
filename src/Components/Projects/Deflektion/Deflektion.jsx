@@ -1,12 +1,15 @@
 import React from "react";
-import DeflektionGallery from "./DeflektionGallery";
+import Gallery from "../../Gallery/Gallery";
 import "./deflektion.css"
 
 import godot_logo from "../../../assets/images/tech_logos/godot_logo.png"
 
 
 const Deflektion = () => {
-    return(
+  const appName = "deflektion"
+  const imageTotal = 6
+
+  return(
     <div className="project__pageContainer">
       <div className="section__title">
         Deflektion
@@ -44,7 +47,7 @@ const Deflektion = () => {
             Links to itch.io page
           </div>
           <div>
-            <DeflektionGallery />
+            <Gallery appName={appName} imageTotal={imageTotal} />
           </div>
         </div>
 
