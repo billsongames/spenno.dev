@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./navbar.css"
-import profile_pic from "../../assets/images/profile/ps.jpeg"
+
 
 const Navbar = () => {
 
@@ -11,7 +11,7 @@ const Navbar = () => {
       <div>
         <Link to = {"/"} style={{ textDecoration: 'none' }}>
           <div className="navbar__titleContainer">
-            <img className="navbar__titleProfilePic" src={profile_pic}/>
+            <img className="navbar__titleProfilePic" src="/assets/images/profile/ps.jpeg"/>
               <div className="navbar__title">
                 Paul Spencer
               </div> 

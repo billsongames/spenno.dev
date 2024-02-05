@@ -2,8 +2,6 @@ import React from "react";
 import Gallery from "../../Gallery/Gallery";
 import "./deflektion.css"
 
-import godot_logo from "../../../assets/images/tech_logos/godot_logo.png"
-
 
 const Deflektion = () => {
   const appName = "deflektion"
@@ -57,7 +55,7 @@ const Deflektion = () => {
           </div>
           <div className="project__techUsedEntry">
             <div>
-              <img src={godot_logo} className="project__techLogo" alt="Godot Game Engine"/>
+            <img src="/assets/images/tech_logos/godot_logo.png" className="project__techLogo" alt="Godot Game Engine"/>
             </div>
           </div>
         </div>

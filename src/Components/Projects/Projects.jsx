@@ -3,12 +3,6 @@ import { Link, Outlet } from 'react-router-dom';
 
 import "./projects.css"
 
-import radiogram_logo from "../../assets/images/radiogram/radiogram_logo.png"
-import rotadroid_logo from "../../assets/images/rotadroid/rotadroid_logo.png"
-import deflektion_logo from "../../assets/images/deflektion/deflektion_logo.png"
-import nasa_logo from "../../assets/images/nasa/NASA_logo.png"
-
-
 const Projects = () => {
   return(
     <div className="projects__container">
@@ -23,7 +17,7 @@ const Projects = () => {
         <div className="projects__row">
           <div className="projectTile">
             <div className="projectLogo">
-              <img src = {radiogram_logo} />
+              <img src = "/assets/images/app_logos/radiogram_logo.png" />
               <div className="projectTileDescription">
                 <div className="projectTileDescription__text">
                   <div className="projectTileDescription__title">
@@ -46,7 +40,7 @@ const Projects = () => {
 
           <div className="projectTile">
             <div className="projectLogo">
-              <img src = {nasa_logo} />
+              <img src =  "/assets/images/app_logos/NASA_logo.png" />
               <div className="projectTileDescription">
                 <div className="projectTileDescription__text">
                   <div className="projectTileDescription__title">
@@ -71,7 +65,7 @@ const Projects = () => {
         <div className="projects__row">
           <div className="projectTile">
             <div className="projectLogo">
-              <img src = {deflektion_logo} />
+              <img src = "/assets/images/app_logos/deflektion_logo.png" />
               <div className="projectTileDescription">
                 <div className="projectTileDescription__text">
                   <div className="projectTileDescription__title">
@@ -94,7 +88,7 @@ const Projects = () => {
 
           <div className="projectTile">
             <div className="projectLogo">
-              <img src = {rotadroid_logo} />
+              <img src = "/assets/images/app_logos/rotadroid_logo.png"/>
               <div className="projectTileDescription">
                 <div className="projectTileDescription__text">
                   <div className="projectTileDescription__title">
