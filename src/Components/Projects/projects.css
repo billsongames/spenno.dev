@@ -100,7 +100,7 @@
 
 .project__pageDisplay{
   display: grid;
-  grid-template-columns: 85% 15%;
+  grid-template-columns: 80% 20%;
   padding: 16px 0px
 }
 
@@ -125,8 +125,6 @@
 
 .project__techLogo{
   width: 100%;
-  min-width: 100px;
-  max-width: 200px
 }
 
 .project__techText{
