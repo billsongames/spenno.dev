@@ -11,8 +11,8 @@ import Radiogram from './Components/Projects/Radiogram/Radiogram';
 import NASA from "./Components/Projects/NASA/NASA"
 import Deflektion from "./Components/Projects/Deflektion/Deflektion"
 import RotaDroid from './Components/Projects/RotaDroid/Rotadroid';
-
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 
 const App = () => {
@@ -22,8 +22,8 @@ const App = () => {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path = "/" element = {<Home/>} />
-          <Route path = "about" element = {<About/>} />
+          <Route path = "/" element = {<About/>} />
+{/*           <Route path = "about" element = {<About/>} /> */}
           <Route path = "projects">
             <Route index element = {<Projects />} />
             <Route path = "radiogram" element = {<Radiogram />} />
@@ -32,8 +32,10 @@ const App = () => {
             <Route path = "rotadroid" element = {<RotaDroid />} />            
           </Route>        
           <Route path = "contact" element = {<Contact/>} />
-        </Routes>    
+        </Routes>
+        <Footer />    
       </div>
+
     </BrowserRouter>
 
 

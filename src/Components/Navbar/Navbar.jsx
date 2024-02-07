@@ -7,12 +7,12 @@ import "./navbar.css"
 const Navbar = () => {
 
   return(
-    <div className="navbar__container">
+    <div className="navbar-container">
       <div>
         <Link to = {"/"} style={{ textDecoration: 'none' }}>
-          <div className="navbar__titleContainer">
-            <img className="navbar__titleProfilePic" src="/assets/images/profile/ps.jpeg"/>
-              <div className="navbar__title">
+          <div className="navbar-title-container">
+            <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg"/>
+              <div className="navbar-title">
                 Paul Spencer
               </div> 
           </div>  
@@ -20,22 +20,22 @@ const Navbar = () => {
 
       </div>
 
-      <div className="navbar__links">
+      <div className="navbar-links">
 
-        <div>
+{/*         <div>
           <Link to = {"/about"} style={{ textDecoration: 'none' }}>
-            <button className="navbar__linkButton">
-              <div className="navbar__linkItem">
+            <button className="navbar-linkButton">
+              <div className="navbar-linkItem">
                 About
               </div>            
             </button>
           </Link>
-        </div>
+        </div> */}
 
         <div>
           <Link to = {"/projects"} style={{ textDecoration: 'none' }}>
-            <button className="navbar__linkButton">
-              <div className="navbar__linkItem">
+            <button className="navbar-link-button">
+              <div className="navbar-link-item">
                 Projects
               </div>            
             </button>
@@ -44,8 +44,8 @@ const Navbar = () => {
 
         <div>
           <Link to = {"/contact"} style={{ textDecoration: 'none' }}>
-            <button className="navbar__linkButton">
-              <div className="navbar__linkItem">
+            <button className="navbar-link-button">
+              <div className="navbar-link-item">
                 Contact
               </div>            
             </button>
@@ -53,8 +53,8 @@ const Navbar = () => {
         </div>
 
         <div>
-          <button className="navbar__linkButton">
-            <div className="navbar__linkItem">
+          <button className="navbar-link-button">
+            <div className="navbar-link-item">
               dark mode
             </div>            
           </button>

@@ -3,7 +3,7 @@
   src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
 }
 
-.navbar__container{
+.navbar-container{
   margin: auto;
   width: 100%;
   display: flex;
@@ -11,19 +11,19 @@
   justify-content: left;
 }
 
-.navbar__titleContainer{
+.navbar-title-container{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.navbar__titleProfilePic{
+.navbar-title-profilePic{
   margin: 12px;
   width: 56px;
   border-radius: 100px
 }
 
-.navbar__title{
+.navbar-title{
   text-align: left;
   padding: 0px 20px;
   font-family: Rubik-Regular, serif;
@@ -34,7 +34,7 @@
 
 
 
-.navbar__titleButton{
+.navbar-title-button{
   margin: 16px;
   padding: 8px;
   background-color: #101010;
@@ -44,14 +44,14 @@
   cursor: pointer;
 }
 
-.navbar__links{
+.navbar-links{
   padding: 0px 32px;
   display: flex;
   flex-direction: row;
   align-items: center
 }
 
-.navbar__linkButton{
+.navbar-link-button{
   margin: 16px;
   padding: 8px;
   background-color: #101010;
@@ -61,15 +61,15 @@
   cursor: pointer;
 }
 
-.navbar__linkButton:hover{
+.navbar-link-button:hover{
   background-color: #282c34;
 }
 
-/* .navbar__linkButton:mou{
+/* .navbar-linkButton:mou{
   background-color: #101010;  
 } */
 
-.navbar__linkItem{
+.navbar-link-item{
   padding: 0px 16px;
   font-family: Rubik-Regular, serif;
   font-size: 18px;
