@@ -3,14 +3,18 @@
   src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
 }
 
-.about__container{
+.about-container{
   margin: auto;
 }
 
-.about__text{
-  padding: 16px 16px;
+.about-text{
+  padding: 1em 1em;
   text-align: left;
   font-family: Rubik-Regular, serif;
-  font-size: 16px;
+  font-size: 1em;
   color: whitesmoke;
+}
+
+.about-gallery-container{
+  
 }

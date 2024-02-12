@@ -1,5 +1,9 @@
 .footer__container{
   margin: auto;
-  padding: 16px;
+  padding: 1em;
   color: whitesmoke
+}
+
+.footer-text{
+  padding: 1em 0
 }

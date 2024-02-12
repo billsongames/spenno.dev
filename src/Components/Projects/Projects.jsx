@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import Footer from "../Footer/Footer";
 
 import "./projects.css"
 
 const Projects = () => {
+
   return(
       <div className="projects-container">
         <div className="section-title">
@@ -16,110 +16,137 @@ const Projects = () => {
 
         <div className="projects-nav">
 
-          <div>
-                      <div className="project-card">
+          <div className="project-card">
             <div className="project-logo">
-              <img src = "/assets/images/app_logos/radiogram_logo.png" />
-
-              <div className="project-card-description">
-                <div className="project-card-description-text">
-                  <div className="project-card-description-title">
-                    radiogram
-                  </div>
+              <img src = "/assets/images/radiogram/radiogram_2.png" />
+            </div>
+            <div className="project-card-description">
+              <div className="project-card-description-text">
+                <div className="project-card-description-title">
+                  radiogram
+                </div>
+                <div>
                   A radio streaming app to enhance your listening pleasure
-                  </div>
-                  <div className="project-link">
-                    <Link to ={"radiogram"}>
-                      <button className="navbar-link-button">
-                        <div className="navbar-link-item">
-                          More info
-                        </div>            
-                      </button>
-                    </Link>
-                  </div>            
-                </div>          
+                </div>
+
+              </div>
+              <div className="project-link">
+                <Link to ={"radiogram"}>
+                  <button className="project-link-button">
+                    <div className="project-link-item">
+                      More info
+                    </div>
+                  </button>
+                </Link>
               </div>
             </div>
+          </div>
 
-            <div className="project-card">
-              <div className="project-logo">
-                <img src =  "/assets/images/app_logos/NASA_logo.png" />
-
-                <div className="project-card-description">
-                  <div className="project-card-description-text">
-                    <div className="project-card-description-title">
-                      NASA Image Search
+          <div className="project-card">
+            <div className="project-logo">
+              <img src = "/assets/images/newsdesk/newsdesk_2.png" />
+            </div>
+            <div className="project-card-description">
+              <div className="project-card-description-text">
+                <div className="project-card-description-title">
+                  NewsDesk
+                </div>
+                <div>
+                  The World News on one page
+                </div>
+              </div>
+              <div className="project-link">
+                <Link to ={"newsdesk"}>
+                  <button className="project-link-button">
+                    <div className="project-link-item">
+                      More info
                     </div>
-                    Marvel at the beauty of the universe with a NASA image search
-                  </div>
-                  <div className="project-link">
-                    <Link to ={"nasa"}>
-                      <button className="navbar-link-button">
-                        <div className="navbar-link-item">
-                          More info
-                        </div>            
-                      </button>
-                    </Link>
-                  </div>            
-                </div>                   
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-logo">
+              <img src = "/assets/images/nasa/nasa_1.png" />
+            </div>
+            <div className="project-card-description">
+              <div className="project-card-description-text">
+                <div className="project-card-description-title">
+                  NASA Image Search
+                </div>
+                <div>
+                  Marvel at the beauty of the universe
+                </div>
+              </div>
+              <div className="project-link">
+                <Link to ={"NASA"}>
+                  <button className="project-link-button">
+                    <div className="project-link-item">
+                      More info
+                    </div>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-logo">
+              <img src = "/assets/images/deflektion/deflektion_4.png" />
+            </div>
+            <div className="project-card-description">
+              <div className="project-card-description-text">
+                <div className="project-card-description-title">
+                  Deflektion
+                </div>
+                <div>
+                  A retro infused brain workout that makes you think ahead
+                </div>
+              </div>
+              <div className="project-link">
+                <Link to ={"deflektion"}>
+                  <button className="project-link-button">
+                    <div className="project-link-item">
+                      More info
+                    </div>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-logo">
+              <img src = "/assets/images/rotadroid/rotadroid_1.png" />
+            </div>
+            <div className="project-card-description">
+              <div className="project-card-description-text">
+                <div className="project-card-description-title">
+                  RotaDroid
+                </div>
+                <div>
+                  A new spin on an old genre
+                </div>
+              </div>
+              <div className="project-link">
+                <Link to ={"rotadroid"}>
+                  <button className="project-link-button">
+                    <div className="project-link-item">
+                      More info
+                    </div>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
 
 
-          <div>
-                        <div className="project-card">
-              <div className="project-logo">
-                <img src = "/assets/images/app_logos/deflektion_logo.png" />
-
-                <div className="project-card-description">
-                  <div className="project-card-description-text">
-                    <div className="project-card-description-title">
-                      Deflektion
-                    </div>
-                    A retro infused brain workout that makes you think ahead
-                  </div>
-                  <div className="project-link">
-                    <Link to ={"deflektion"}>
-                      <button className="navbar-link-button">
-                        <div className="navbar-link-item">
-                          More info
-                        </div>            
-                      </button>
-                    </Link>
-                  </div>            
-                </div>                   
-              </div>
-            </div>
-
-            <div className="project-card">
-              <div className="project-logo">
-                <img src = "/assets/images/app_logos/rotadroid_logo.png"/>
-
-                <div className="project-card-description">
-                  <div className="project-card-description-text">
-                    <div className="project-card-description-title">
-                      RotaDroid
-                    </div>
-                    A new spin on an old genre
-                  </div>
-                  <div className="project-link">
-                    <Link to ={"rotadroid"}>
-                      <button className="navbar-link-button">
-                        <div className="navbar-link-item">
-                          More info
-                        </div>            
-                      </button>
-                    </Link>
-                  </div>            
-                </div>                   
-              </div>
-            </div>
-          </div>
 
 
           </div>
-        </div>  
+        </div>
 
 
   )

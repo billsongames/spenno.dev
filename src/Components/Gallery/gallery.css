@@ -1,6 +1,6 @@
 .gallery__container{
   background-color: black;
-  padding: 16px
+  padding: 1em
 }
 
 .gallery__mainImage{
@@ -18,7 +18,7 @@
 }  
 
 .gallery__thumbContainer{
-  padding: 16px 0px;
+  padding: 1em 0;
   width: 100%;
   display: grid;
   grid-auto-columns: minmax(0, 1fr);

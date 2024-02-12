@@ -1,8 +1,6 @@
 import React from "react";
 import Gallery from "../../Gallery/Gallery";
 
-import "./rotadroid.css"
-
 
 const RotaDroid = () => {
   const appName = "rotadroid"
@@ -36,8 +34,8 @@ const RotaDroid = () => {
             Coded from scratch using Godot game engine, this was my first full game release and my first venture into the world of coding.
           </div>
           <div className="project-text">
-            RotaDroid is available for Android and Windows platforms. 
-          </div>  
+            RotaDroid is available for Android and Windows platforms.
+          </div>
           <div className="project-text">
             Links to itch.io page
           </div>
@@ -54,14 +52,14 @@ const RotaDroid = () => {
             <div>
               <img src="/assets/images/tech_logos/godot_logo.png" className="project-tech-logo" alt="Godot Game Engine"/>
             </div>
-            
+
           </div>
         </div>
 
 
-        
+
       </div>
-  </div>  
+  </div>
   )
 }
 

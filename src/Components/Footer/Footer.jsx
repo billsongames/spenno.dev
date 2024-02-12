@@ -5,7 +5,11 @@ import "./footer.css"
 const Footer = () => {
   return(
     <div className="footer__container">
-      © 2024 Paul Spencer
+      <hr></hr>
+      <div className="footer-text">
+        © 2024 Paul Spencer
+      </div>
+      
     </div>
   )
 }

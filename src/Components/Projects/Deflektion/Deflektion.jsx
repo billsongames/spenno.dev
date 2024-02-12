@@ -1,6 +1,5 @@
 import React from "react";
 import Gallery from "../../Gallery/Gallery";
-import "./deflektion.css"
 
 
 const Deflektion = () => {
@@ -19,9 +18,9 @@ const Deflektion = () => {
       <div className="project-page">
         <div className="project-description">
           <div className="project-text">
-            Deflektion is a simple collect 'em up style game with a continuously moving ball that needs to be guided through each level to collect the icons in the right order. 
-            Influence the path of the ball by using deflektors to change its direction. 
-            Various blocks will alter the path of the ball too. Some are advantageous and some are not. 
+            Deflektion is a simple collect 'em up style game with a continuously moving ball that needs to be guided through each level to collect the icons in the right order.
+            Influence the path of the ball by using deflektors to change its direction.
+            Various blocks will alter the path of the ball too. Some are advantageous and some are not.
             Careful planning is needed to progress through each level.
           </div>
           <div className="project-text">
@@ -34,12 +33,12 @@ const Deflektion = () => {
             <li>Chiptune style music and sound effects</li>
           </ul>
           <div className="project-text">
-            This was my second full game release and builds on my experience developing RotaDroid. 
-            With challenging level design, a rigorous test process ensured that every level can be completed (as verified by me because I designed and completed them all 👍) 
+            This was my second full game release and builds on my experience developing RotaDroid.
+            With challenging level design, a rigorous test process ensured that every level can be completed (as verified by me because I designed and completed them all 👍)
           </div>
           <div className="project-text">
             Deflektion is available for Android and Windows platforms.
-          </div>  
+          </div>
 
           <div className="project-text">
             Links to itch.io page
@@ -61,7 +60,7 @@ const Deflektion = () => {
         </div>
 
       </div>
-    </div>      
+    </div>
   )
 }
 

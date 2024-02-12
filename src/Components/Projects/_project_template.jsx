@@ -2,28 +2,43 @@ import React from "react";
 import Gallery from "../../Gallery/Gallery";
 
 
-const NASA = () => {
-  const appName = "nasa"
+const Template = () => {
+  const appName = "template"
   const imageTotal = 6
 
   return(
     <div className="project-page-container">
       <div className="project-title">
-        NASA Image Search
+        title
+      </div>
+      <div className="project-text">
+        tagline
       </div>
 
       <div className="project-page">
         <div className="project-description">
           <div className="project-text">
-            Built as a project during my software engineering course at Command Shift,
-            NASA Image Search is (quelle surprise) an app to search for NASA images using a NASA image API.
-            Type in a search query, click "Launch" and marvel at the beauty of the universe, all on the same screen.
+            main description
+          </div>
+
+          <div className="project-text">
+            features
+          </div>
+          <ul className="project-features">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+            <li>list 4</li>
+          </ul>
+          <div className="project-text">
+            description 2
           </div>
           <div className="project-text">
-            App features:
+            Deflektion is available for Android and Windows platforms.
           </div>
+
           <div className="project-text">
-            Links to website and github repo
+            Links to itch.io page
           </div>
           <div>
             <Gallery appName={appName} imageTotal={imageTotal} />
@@ -36,14 +51,13 @@ const NASA = () => {
           </div>
           <div className="project-tech-entry">
             <div>
-            <img src="/assets/images/tech_logos/react_logo.png" className="project-tech-logo" alt="React"/>
+            <img src="/assets/images/tech_logos/godot_logo.png" className="project-tech-logo" alt="Godot Game Engine"/>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   )
 }
 
-export default NASA
+export default Template

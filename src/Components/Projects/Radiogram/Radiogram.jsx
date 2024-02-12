@@ -1,8 +1,5 @@
 import React from "react";
 import Gallery from "../../Gallery/Gallery";
-import Footer from "../../Footer/Footer";
-
-import "./radiogram.css"
 
 
 const Radiogram = () => {
@@ -15,7 +12,7 @@ const Radiogram = () => {
           Radiogram
         </div>
         <div className="project-text">
-          Try radiogram to enhance your listening pleasure.
+        A radio streaming app to enhance your listening pleasure
         </div>
 
         <div className="project-page">
@@ -67,7 +64,7 @@ const Radiogram = () => {
 
         </div>
       </div>
-  
+
   )
 }
 
