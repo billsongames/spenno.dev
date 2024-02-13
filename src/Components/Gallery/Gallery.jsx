@@ -16,9 +16,9 @@ const Gallery = ({appName, imageTotal}) => {
   const jsx = []
   for (let i=1; i<imageTotal+1; i++) {
     jsx.push(
-        <img 
+        <img
           id = {i}
-          className="gallery__thumb"
+          className="gallery-thumb"
           src={`${path}${i}.png`}
           onClick={onImageClick}
           alt = {`Screenshot ${i}`}
@@ -30,20 +30,20 @@ const Gallery = ({appName, imageTotal}) => {
 
   return(
     <div>
-      <div className="gallery__container">
-        <div className="gallery__mainImage">
-          <img 
-            className="gallery__mainImagePic"
+      <div className="gallery-container">
+        <div className="gallery-mainImage">
+          <img
+            className="gallery-mainImage-pic"
             src={`${path}${imageID}.png`}
-            alt = {`Screenshot ${imageID}`}
-          />  
+            alt = {`${appName} screenshot ${imageID}`}
+          />
         </div>
 
 
-        <div className="gallery__thumbContainer">
+        <div className="gallery-thumb-container">
           {jsx}
         </div>
-      </div>  
+      </div>
     </div>
 
   )

@@ -14,30 +14,30 @@ const Navbar = () => {
             <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg"/>
               <div className="navbar-title">
                 Paul Spencer
-              </div> 
-          </div>  
+              </div>
+          </div>
         </Link>
 
       </div>
 
       <div className="navbar-links">
 
-{/*         <div>
+        <div>
           <Link to = {"/about"} style={{ textDecoration: 'none' }}>
-            <button className="navbar-linkButton">
-              <div className="navbar-linkItem">
+            <button className="navbar-link-button">
+              <div className="navbar-link-item">
                 About
-              </div>            
+              </div>
             </button>
           </Link>
-        </div> */}
+        </div>
 
         <div>
           <Link to = {"/projects"} style={{ textDecoration: 'none' }}>
             <button className="navbar-link-button">
               <div className="navbar-link-item">
                 Projects
-              </div>            
+              </div>
             </button>
           </Link>
         </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
             <button className="navbar-link-button">
               <div className="navbar-link-item">
                 Contact
-              </div>            
+              </div>
             </button>
           </Link>
         </div>
@@ -56,11 +56,11 @@ const Navbar = () => {
           <button className="navbar-link-button">
             <div className="navbar-link-item">
               dark mode
-            </div>            
+            </div>
           </button>
         </div>
       </div>
-    </div>  
+    </div>
   )
 
 

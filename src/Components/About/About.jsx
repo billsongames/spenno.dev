@@ -1,6 +1,6 @@
 import React from "react";
 
-import AboutGallery from "./AboutGallery";
+
 
 import "./about.css"
 
@@ -19,11 +19,6 @@ const About = () => {
           This is probably why I enjoy playing video games and electric guitar, although not necessarily at the same time, unless it's a quick blast on Guitar Hero.
         </div>
       </div>
-      <div className="about-gallery">
-        <AboutGallery />
-
-      </div>
-
     </div>
   )
 }

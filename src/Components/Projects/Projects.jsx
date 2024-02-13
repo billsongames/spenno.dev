@@ -18,6 +18,7 @@ const Projects = () => {
 
           <div className="project-card">
             <div className="project-logo">
+
               <img src = "/assets/images/radiogram/radiogram_2.png" />
             </div>
             <div className="project-card-description">
@@ -28,7 +29,6 @@ const Projects = () => {
                 <div>
                   A radio streaming app to enhance your listening pleasure
                 </div>
-
               </div>
               <div className="project-link">
                 <Link to ={"radiogram"}>
@@ -41,6 +41,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+
 
           <div className="project-card">
             <div className="project-logo">

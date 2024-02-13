@@ -4,7 +4,7 @@ import "./footer.css"
 
 const Footer = () => {
   return(
-    <div className="footer__container">
+    <div className="footer-container">
       <hr></hr>
       <div className="footer-text">
         © 2024 Paul Spencer
