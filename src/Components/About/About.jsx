@@ -6,7 +6,7 @@ import "./about.css"
 
 const About = () => {
   return(
-    <div className="about_-ontainer">
+    <div className="about-container">
       <div className="text-section">
         <div className="about-text">
           Hi. I'm Paul Spencer, a software developer based in Doncaster, UK. I enjoy building interactive and intuitive user experiences.
