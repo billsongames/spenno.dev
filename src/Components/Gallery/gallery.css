@@ -1,6 +1,7 @@
 .gallery-container{
   background-color: black;
-  padding: 1em
+  padding: 1em;
+  border-radius: 1em
 }
 
 .gallery-mainImage{
@@ -15,7 +16,8 @@
   width: 100%;
   border-width: 2px;
   border-style: solid;
-}  
+  border-radius: 1em
+}
 
 .gallery-thumb-container{
   padding: 1em 0;
@@ -35,11 +37,13 @@
   cursor: pointer;
   transition: 0.1s;
   border-style: solid;
-  border-color: black
+  border-color: black;
+  border-radius: 1em
 }
 
 .gallery-thumb:hover{
   scale: 1.2;
-  border-color: whitesmoke
+  border-color: black;
+  z-index: 2
 
 }

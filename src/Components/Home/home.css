@@ -17,98 +17,31 @@
   font-family: Rubik-Regular, serif;
   font-size: 3em;
   color: whitesmoke;
-  padding: 0.5em
+  padding: 0.25em
 }
 
 /* ###################################### */
 
-.home-gallery-container{
-  margin: auto;
-}
-
-.home-gallery-pic-container{
-  top: 0;
-  position: relative;
-  display: block;
+.home-gallery-nav{
+  margin: 1em 0;
   width: 100%;
-  height: 480px;
-  color: whitesmoke;
 }
 
 .home-gallery-pic{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  background-position: top;
-  background-repeat: no-repeat;
-  -webkit-animation: fade 25s infinite;
-  animation: fade 25s infinite;
+  width: 80%;
+  border-radius: 1em;
+  transition: 0.2s;
 }
 
-#pic1{
-  animation-delay: 0s;
-  background-image: url("../../assets/images/radiogram/radiogram_2.png");
+.home-gallery-link{
+  font-size: 2em;
+  color: whitesmoke;
+  text-decoration: underline 0.1em rgba(245,245,245,0);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 0.2s, text-underline-offset 0.2s
 }
 
-#pic2{
-  background-image: url("../../assets/images/newsdesk/newsdesk_2.png");
-  animation-delay: 5s;
-}
-
-#pic3{
-  background-image: url("../../assets/images/nasa/nasa_1.png");
-  animation-delay: 10s;
-}
-
-#pic4{
-  background-image: url("../../assets/images/deflektion/deflektion_4.png");
-  animation-delay: 15s;
-}
-
-#pic5{
-  background-image: url("../../assets/images/rotadroid/rotadroid_1.png");
-  animation-delay: 20s;
-}
-
-
-
-
-
-@-webkit-keyframes fade {
-  0% {
-    opacity: 1;
-  }
-  16% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0;
-  }
-  96% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  0% {
-    opacity: 1;
-  }
-  16% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0;
-  }
-  96% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.home-gallery-link:hover{
+  text-decoration-color: rgba(245,245,245,1);
+  text-underline-offset: 0.3em;
 }
