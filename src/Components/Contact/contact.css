@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
+}
+
+.contact-container{
+  margin: 2em;
+  background-color: #101010;
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px;
+}
+
+.contact-heading{
+  font-size: 2em;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 0.5em
+}
+
+.contact-form{
+  font-size: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.contact-form-section{
+  margin: 1em auto;
+  width: 90%;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.contact-form-message{
+  margin: 1em auto;
+  width: 90%;
+  height: 12em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.contact-form-buttons-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center
+}
+
+.contact-form-button{
+  margin: 0 1em;
+  width: 8em;
+  padding: 1em;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 1em;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.contact-form-button-item{
+  padding: 0 1em;
+  font-family: Rubik-Regular, serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline 0.1em rgba(0,0,0,0);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 0.2s, text-underline-offset 0.2s
+}
+
+.contact-form-button:hover .contact-form-button-item{
+    text-decoration-color: rgba(0,0,0,1);
+  text-underline-offset: 0.4em;
+}
