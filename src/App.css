@@ -13,10 +13,12 @@
 .section-title{
   font-family: Rubik-Regular, serif;
   font-size: 2em;
+  font-weight: bold;
   color: whitesmoke;
 }
 
 .text-section{
+  margin: 2em 0;
   padding: 1em;
   background-color: #101010;
   border-radius: 16px;

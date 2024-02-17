@@ -1,0 +1,23 @@
+.home-gallery-nav{
+  margin: 1em 0;
+  width: 100%;
+}
+
+.home-gallery-pic{
+  width: 80%;
+  border-radius: 1em;
+  transition: 0.2s;
+}
+
+.home-gallery-link{
+  font-size: 2em;
+  color: whitesmoke;
+  text-decoration: underline 0.1em rgba(245,245,245,0);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 0.2s, text-underline-offset 0.2s
+}
+
+.home-gallery-link:hover{
+  text-decoration-color: rgba(245,245,245,1);
+  text-underline-offset: 0.3em;
+}

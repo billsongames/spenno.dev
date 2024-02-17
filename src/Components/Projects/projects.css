@@ -37,6 +37,15 @@
   align-content: center
 }
 
+.project-logo-container{
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  border-radius: 1em;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
 .project-logo {
   margin: auto;
   width: 80%;
@@ -46,7 +55,7 @@
   transition: 0.4s;
 }
 
-.project-logo:hover{
+.project-logo-container:hover{
   scale: 1.1
 }
 
@@ -99,6 +108,14 @@
   font-size: 1em;
   font-weight: bold;
   color: black;
+  text-decoration: underline 0.1em rgba(0,0,0,0);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 0.2s, text-underline-offset 0.2s
+}
+
+.project-link-button:hover .project-link-item{
+  text-decoration-color: rgba(0,0,0,1);
+  text-underline-offset: 0.4em;
 }
 
 /* #################################################################### */
@@ -117,6 +134,7 @@
 .project-title{
   font-family: Rubik-Regular, serif;
   font-size: 2em;
+  font-weight: bold;
   color: whitesmoke;
 }
 

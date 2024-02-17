@@ -52,13 +52,13 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div>
+{/*         <div>
           <button className="navbar-link-button">
             <div className="navbar-link-item">
               dark mode
             </div>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   )

@@ -12,7 +12,7 @@ const Home = () => {
   return(
     <div className="home-container">
       <div className="home-title">
-        Design {arrow} Build {arrow} Enjoy
+        DESIGN {arrow} BUILD {arrow} ENJOY
       </div>
 
       <HomeGallery />

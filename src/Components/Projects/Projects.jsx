@@ -17,9 +17,10 @@ const Projects = () => {
         <div className="projects-nav">
 
           <div className="project-card">
-            <div className="project-logo">
-
-              <img src = "/assets/images/radiogram/radiogram_2.png" />
+            <div className="project-logo-container">
+              <Link to ={"radiogram"} className="project-logo">
+                <img src = "/assets/images/radiogram/radiogram_2.png" />
+              </Link>
             </div>
             <div className="project-card-description">
               <div className="project-card-description-text">
@@ -45,8 +46,10 @@ const Projects = () => {
 
 
           <div className="project-card">
-            <div className="project-logo">
-              <img src = "/assets/images/newsdesk/newsdesk_2.png" />
+            <div className="project-logo-container">
+              <Link to ={"newsdesk"} className="project-logo">
+                <img src = "/assets/images/newsdesk/newsdesk_2.png" />
+              </Link>
             </div>
             <div className="project-card-description">
               <div className="project-card-description-text">
@@ -70,8 +73,10 @@ const Projects = () => {
           </div>
 
           <div className="project-card">
-            <div className="project-logo">
-              <img src = "/assets/images/nasa/nasa_1.png" />
+            <div className="project-logo-container">
+              <Link to ={"NASA"} className="project-logo">
+                <img src = "/assets/images/nasa/nasa_1.png" />
+              </Link>
             </div>
             <div className="project-card-description">
               <div className="project-card-description-text">
@@ -95,8 +100,10 @@ const Projects = () => {
           </div>
 
           <div className="project-card">
-            <div className="project-logo">
-              <img src = "/assets/images/deflektion/deflektion_4.png" />
+            <div className="project-logo-container">
+              <Link to ={"deflektion"} className="project-logo">
+                <img src = "/assets/images/deflektion/deflektion_4.png" />
+              </Link>
             </div>
             <div className="project-card-description">
               <div className="project-card-description-text">
@@ -108,7 +115,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="project-link">
-                <Link to ={"deflektion"}>
+                <Link to ={"deflektion"} className="project-logo">
                   <button className="project-link-button">
                     <div className="project-link-item">
                       More info
@@ -120,8 +127,10 @@ const Projects = () => {
           </div>
 
           <div className="project-card">
-            <div className="project-logo">
-              <img src = "/assets/images/rotadroid/rotadroid_1.png" />
+            <div className="project-logo-container">
+              <Link to ={"rotadroid"} className="project-logo">
+                <img src = "/assets/images/rotadroid/rotadroid_1.png" />
+              </Link>
             </div>
             <div className="project-card-description">
               <div className="project-card-description-text">
