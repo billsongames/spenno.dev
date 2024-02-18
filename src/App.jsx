@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import { DarkModeProvider } from "./context/DarkModeContext";
 
 import './App.css';
 
@@ -22,22 +24,24 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path = "/" element = {<Home/>} />
-          <Route path = "about" element = {<About/>} />
-          <Route path = "projects">
-            <Route index element = {<Projects />} />
-            <Route path = "radiogram" element = {<Radiogram />} />
-            <Route path = "newsdesk" element = {<NewsDesk />} />
-            <Route path = "deflektion" element = {<Deflektion />} />
-            <Route path = "nasa" element = {<NASA />} />
-            <Route path = "rotadroid" element = {<RotaDroid />} />
-            <Route path = "in-progress" element = {<InProgress />} />
-          </Route>
-          <Route path = "contact" element = {<Contact/>} />
-        </Routes>
-        <Footer />
+        <DarkModeProvider>
+          <Navbar />
+          <Routes>
+            <Route path = "/" element = {<Home/>} />
+            <Route path = "about" element = {<About/>} />
+            <Route path = "projects">
+              <Route index element = {<Projects />} />
+              <Route path = "radiogram" element = {<Radiogram />} />
+              <Route path = "newsdesk" element = {<NewsDesk />} />
+              <Route path = "deflektion" element = {<Deflektion />} />
+              <Route path = "nasa" element = {<NASA />} />
+              <Route path = "rotadroid" element = {<RotaDroid />} />
+              <Route path = "in-progress" element = {<InProgress />} />
+            </Route>
+            <Route path = "contact" element = {<Contact/>} />
+          </Routes>
+          <Footer />
+          </DarkModeProvider>  
       </div>
 
     </BrowserRouter>

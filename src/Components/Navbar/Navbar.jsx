@@ -1,10 +1,24 @@
-import React from "react";
+import React, {useContext} from "react";
+import { DarkModeContext } from "../../context/DarkModeContext"
 import { Link } from "react-router-dom";
 
 import "./navbar.css"
 
 
 const Navbar = () => {
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
+
+  const r = document.querySelector(':root');
+
+  if (darkMode) {
+    console.log("dark mode on")
+  } else {
+    console.log("dark mode off")
+  }
+
+  const handleClick = () => {
+    toggleDarkMode()
+  }
 
   return(
     <div className="navbar-container">
@@ -52,13 +66,14 @@ const Navbar = () => {
           </Link>
         </div>
 
-{/*         <div>
-          <button className="navbar-link-button">
-            <div className="navbar-link-item">
-              dark mode
-            </div>
-          </button>
-        </div> */}
+        <div className="navbar-darkmode-toggle">
+          <img src={darkMode
+            ? "/assets/images/darkmode/lightswitch_on.png"
+            : "/assets/images/darkmode/lightswitch_off.png"}
+            alt="Dark Mode toggle"
+            onClick={handleClick}/>
+
+        </div>
       </div>
     </div>
   )
