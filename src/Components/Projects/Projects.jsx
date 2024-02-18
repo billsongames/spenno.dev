@@ -8,7 +8,7 @@ const Projects = () => {
   return(
       <div className="projects-container">
         <div className="section-title">
-          Projects
+          PROJECTS
         </div>
         <div className="projects-intro">
           Here are some of the projects I've worked on...

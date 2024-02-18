@@ -28,15 +28,15 @@ const Contact = () => {
 
   return(
     <div className="contact-container">
-      <div className="contact-heading">
-        Contact
-      </div>
       <form
         action="https://formspree.io/f/mvoeavoz"
         method="POST"
         className="contact-form"
         id="contact-form"
       >
+        <div className="contact-form-title">
+          KEEP IN TOUCH
+        </div>
         <input
           type="text"
           name="name"

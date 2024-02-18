@@ -11,9 +11,11 @@
 }
 
 .contact-heading{
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   color: whitesmoke;
+  padding: 0.5em 0;
+  text-align: center;
   padding: 0.5em
 }
 
@@ -25,16 +27,25 @@
   align-items: start;
 }
 
+.contact-form-title{
+  margin: 0 0.5em;
+  width: 95%;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: left;
+}
+
 .contact-form-section{
   margin: 1em auto;
-  width: 90%;
+  width: 95%;
   font-size: 1em;
   font-weight: bold;
-}
+ }
 
 .contact-form-message{
   margin: 1em auto;
-  width: 90%;
+  width: 95%;
   height: 12em;
   font-size: 1em;
   font-weight: bold;
