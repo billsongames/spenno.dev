@@ -2,6 +2,10 @@ import React, {useContext} from "react";
 import { DarkModeContext } from "../../context/DarkModeContext"
 import { Link } from "react-router-dom";
 
+import NavbarLinks from "./NavbarLinks";
+
+import { themeColors } from "../../themes/themes";
+
 import "./navbar.css"
 
 
@@ -11,12 +15,23 @@ const Navbar = () => {
   const r = document.querySelector(':root');
 
   if (darkMode) {
+    r.style.setProperty("--background-color", themeColors.darkColor)
+    r.style.setProperty("--text-color", themeColors.lightColor)
+    r.style.setProperty("--project-card-background", themeColors.darkProjectCard)
+
+  } else {
+    r.style.setProperty("--background-color", themeColors.lightColor)
+    r.style.setProperty("--text-color", themeColors.darkColor)
+    r.style.setProperty("--project-card-background", themeColors.lightProjectCard)
+  }
+
+  if (darkMode) {
     console.log("dark mode on")
   } else {
     console.log("dark mode off")
   }
 
-  const handleClick = () => {
+  const handleDarkModeClick = () => {
     toggleDarkMode()
   }
 
@@ -71,7 +86,7 @@ const Navbar = () => {
             ? "/assets/images/darkmode/lightswitch_on.png"
             : "/assets/images/darkmode/lightswitch_off.png"}
             alt="Dark Mode toggle"
-            onClick={handleClick}/>
+            onClick={handleDarkModeClick}/>
 
         </div>
       </div>

@@ -1,7 +1,13 @@
 .gallery-container{
-  background-color: black;
-  padding: 1em;
-  border-radius: 1em
+  margin: 1em auto;
+  background-color: var(--background-color);
+}
+
+.gallery-title{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--text-color)
+
 }
 
 .gallery-mainImage{
@@ -14,6 +20,8 @@
 
 .gallery-mainImage-pic{
   width: 100%;
+  border: 2px solid;
+  border-color: var(--text-color);
 }
 
 .gallery-thumb-container{

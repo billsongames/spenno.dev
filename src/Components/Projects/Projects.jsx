@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DarkModeContext } from "../../context/DarkModeContext";
 import { Link } from 'react-router-dom';
 
 import "./projects.css"
 
 const Projects = () => {
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
 
   return(
       <div className="projects-container">
-        <div className="section-title">
+        <div className="projects-title">
           PROJECTS
         </div>
         <div className="projects-intro">
@@ -115,7 +117,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="project-link">
-                <Link to ={"deflektion"} className="project-logo">
+                <Link to ={"deflektion"}>
                   <button className="project-link-button">
                     <div className="project-link-item">
                       More info

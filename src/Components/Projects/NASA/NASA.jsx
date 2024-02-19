@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DarkModeContext } from "../../../context/DarkModeContext";
 import Gallery from "../../Gallery/Gallery";
 
 
 const NASA = () => {
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
   const appName = "nasa"
   const imageTotal = 6
 

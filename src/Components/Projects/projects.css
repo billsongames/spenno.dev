@@ -5,17 +5,26 @@
 
 .projects-container {
   margin: 2em;
-  background-color: #101010;
+  background-color: var(--background-color);
   border-radius: 1em;
-  box-shadow: 0px 4px 8px;
-  padding: 1em
+  border-width: 2px;
+  border-style: solid;
+  padding: 0.5em;
+}
+
+.projects-title{
+  padding: 0.25em 0.25em;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: left;
+  color: var(--text-color);
 }
 
 .projects-intro{
   margin-top: 0px;
-  padding: 1em;
+  padding: 0.5em;
   font-family: Rubik-Regular, serif;
-  color: whitesmoke;
+  color: var(--text-color);
   text-align: left;
 }
 
@@ -25,17 +34,27 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #101010;
+  background-color: var(--background-color);
 
 }
 
 .project-card {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: 2em 0;
-  width: 100%;
+  margin: 2em auto;
+  padding: 1em;
+  width: 90%;
   position: relative;
-  align-content: center
+  align-content: center;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1em;
+  background-color: var(--project-card-background);
+  transition: 0.2s;
+}
+
+.project-card:hover{
+  background-color: #526D82;
 }
 
 .project-logo-container{
@@ -56,14 +75,16 @@
   transition: 0.4s;
 }
 
-.project-logo-container:hover{
+/* .project-logo-container:hover{
   scale: 1.1
-}
+} */
 
 .project-logo > img{
   width: 100%;
-  border-radius: 1em;
+/*   border-radius: 1em; */
   object-fit: cover;
+  border: 2px solid;
+  border-color: var(--text-color);
 }
 
 /* .project-card-description {
@@ -80,7 +101,7 @@
 .project-card-description-text{
   padding: 0 1em;
   font-size:1em;
-  color: whitesmoke;
+  color: var(--text-color);
   text-align: left;
 }
 
@@ -96,7 +117,7 @@
 
 .project-link-button{
   padding: 1em;
-  background-color: whitesmoke;
+  background-color: var(--text-color);
   border: none;
   border-radius: 1em;
   transition-duration: 0.2s;
@@ -108,14 +129,14 @@
   font-family: Rubik-Regular, serif;
   font-size: 1em;
   font-weight: bold;
-  color: black;
-  text-decoration: underline 0.1em rgba(0,0,0,0);
+  color: var(--background-color);
+  text-decoration: underline 0.2em var(--text-color);
   text-underline-offset: 0.2em;
   transition: text-decoration-color 0.2s, text-underline-offset 0.2s
 }
 
 .project-link-button:hover .project-link-item{
-  text-decoration-color: rgba(0,0,0,1);
+  text-decoration-color: var(--background-color);
   text-underline-offset: 0.4em;
 }
 
@@ -126,17 +147,18 @@
   font-family: Rubik-Regular, serif;
   font-size: 1em;
   text-align: left;
-  background-color: #101010;
+  background-color: var(--background-color);
   padding: 1em;
-  box-shadow: 0px 4px 8px;
-  border-radius: 1em
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1em;
 }
 
 .project-title{
   font-family: Rubik-Regular, serif;
   font-size: 2em;
   font-weight: bold;
-  color: whitesmoke;
+  color: var(--text-color)
 }
 
 .project-page{
@@ -153,7 +175,7 @@
 
 .project-features{
   list-style: square;
-  color: whitesmoke;
+  color: var(--text-color);
   font-size:1em;
 }
 
@@ -161,7 +183,7 @@
   text-align: left;
   font-family: Rubik-Regular, serif;
   font-size: 1.5em;
-  color: whitesmoke;
+  color: var(--text-color)
 }
 
 .project-text{
@@ -169,7 +191,7 @@
   text-align: left;
   font-family: Rubik-Regular, serif;
   font-size: 1em;
-  color: whitesmoke;
+  color: var(--text-color)
 }
 
 .project-tech-container{

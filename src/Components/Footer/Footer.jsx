@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DarkModeContext } from "../../context/DarkModeContext";
 
 import "./footer.css"
 
 const Footer = () => {
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
+
   return(
     <div className="footer-container">
-      <hr></hr>
+      <div className="footer-divide">
+      </div>
       <div className="footer-text">
         © 2024 Paul Spencer
       </div>

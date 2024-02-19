@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { DarkModeContext } from "../../context/DarkModeContext";
 import { Link } from 'react-router-dom';
 
 import "./homeGallery.css"
 
 
 const HomeGallery = () => {
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const [currentSrc, setCurrentSrc] = useState("")

@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { DarkModeContext } from "../../context/DarkModeContext";
 
 import "./contact.css"
 
 const Contact = () => {
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
 
   const [inputs, setInputs] = useState({
     "name": "",

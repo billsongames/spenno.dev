@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DarkModeContext } from "../../context/DarkModeContext";
 
 
 
 import "./about.css"
 
 const About = () => {
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
+
   return(
     <div className="about-container">
       <div className="about-intro-container">
@@ -27,8 +30,7 @@ const About = () => {
 
 
       <div className="about-history-container">
-        <div className="text-section">
-          <div className="about-title">
+        <div className="about-title">
             MY STORY
           </div>
           <div className="about-text">
@@ -42,7 +44,6 @@ const About = () => {
           <div className="about-text">
             In September 2022, I enrolled on a software engineering course at <a href="https://www.commandshift.co/" target= "_blank" rel="noreferrer">Command Shift</a> and after building a solid foundation in HTML, CSS, JavaScript, backend and frontend technologies particularly React, I graduated in March 2023.
           </div>
-        </div>
       </div>
 
 

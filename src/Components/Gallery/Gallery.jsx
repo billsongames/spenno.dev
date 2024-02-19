@@ -1,10 +1,12 @@
-import {React, useState} from "react";
+import React, { useContext, useState } from "react";
+import { DarkModeContext } from "../../context/DarkModeContext";
 import PropTypes from "prop-types"
 
 import "./gallery.css"
 
 
 const Gallery = ({appName, imageTotal}) => {
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
 
   const [imageID, setImageID] = useState(1)
   const path = `/assets/images/${appName}/${appName}_`
@@ -31,6 +33,9 @@ const Gallery = ({appName, imageTotal}) => {
   return(
     <div>
       <div className="gallery-container">
+        <div className="gallery-title">
+          GALLERY
+        </div>
         <div className="gallery-mainImage">
           <img
             className="gallery-mainImage-pic"

@@ -1,9 +1,15 @@
 .footer-container{
   margin: auto;
   padding: 1em;
-  color: whitesmoke
+  color: var(--text-color);
+}
+
+.footer-divide{
+  border: 0.12em solid;
+  border-color: var(--text-color);
 }
 
 .footer-text{
-  padding: 1em 0
+  padding: 1em 0;
+  font-weight: bold;
 }

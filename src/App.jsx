@@ -41,7 +41,7 @@ const App = () => {
             <Route path = "contact" element = {<Contact/>} />
           </Routes>
           <Footer />
-          </DarkModeProvider>  
+        </DarkModeProvider>
       </div>
 
     </BrowserRouter>

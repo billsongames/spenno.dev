@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DarkModeContext } from "../../context/DarkModeContext";
 
 import HomeGallery from "./HomeGallery";
 import Contact from "../Contact/Contact"
@@ -7,6 +8,7 @@ import "./home.css"
 
 
 const Home = () => {
+  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
   const arrow = "->"
 
 

@@ -5,15 +5,17 @@
 
 .contact-container{
   margin: 2em;
-  background-color: #101010;
-  border-radius: 16px;
-  box-shadow: 0px 4px 8px;
+  background-color: var(--background-color);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1em;
+  padding: 0.5em
 }
 
 .contact-heading{
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
-  color: whitesmoke;
+  color: var(--text-color);
   padding: 0.5em 0;
   text-align: center;
   padding: 0.5em
@@ -21,31 +23,30 @@
 
 .contact-form{
   font-size: 1em;
-  padding: 1em;
+  padding: 0.5em;
   display: flex;
   flex-direction: column;
   align-items: start;
 }
 
 .contact-form-title{
-  margin: 0 0.5em;
-  width: 95%;
+  width: 100%;
   font-size: 1.5em;
   font-weight: bold;
-  color: whitesmoke;
+  color: var(--text-color);
   text-align: left;
 }
 
 .contact-form-section{
   margin: 1em auto;
-  width: 95%;
+  width: 98%;
   font-size: 1em;
   font-weight: bold;
- }
+}
 
 .contact-form-message{
   margin: 1em auto;
-  width: 95%;
+  width: 98%;
   height: 12em;
   font-size: 1em;
   font-weight: bold;
@@ -62,7 +63,7 @@
   margin: 0 1em;
   width: 8em;
   padding: 1em;
-  background-color: whitesmoke;
+  background-color: var(--text-color);
   border: none;
   border-radius: 1em;
   transition-duration: 0.2s;
@@ -74,13 +75,13 @@
   font-family: Rubik-Regular, serif;
   font-size: 1em;
   font-weight: bold;
-  color: black;
-  text-decoration: underline 0.1em rgba(0,0,0,0);
+  text-decoration: underline 0.2em var(--text-color);
+  color: var(--background-color);
   text-underline-offset: 0.2em;
   transition: text-decoration-color 0.2s, text-underline-offset 0.2s
 }
 
 .contact-form-button:hover .contact-form-button-item{
-    text-decoration-color: rgba(0,0,0,1);
+  text-decoration-color: var(--background-color);
   text-underline-offset: 0.4em;
 }
