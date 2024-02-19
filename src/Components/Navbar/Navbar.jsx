@@ -36,61 +36,74 @@ const Navbar = () => {
   }
 
   return(
-    <div className="navbar-container">
-      <div>
-        <Link to = {"/"} style={{ textDecoration: 'none' }}>
-          <div className="navbar-title-container">
-            <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg"/>
+      <div className="navbar-container">
+        <div>
+          <Link to = {"/"} style={{ textDecoration: 'none' }}>
+            <div className="navbar-title-container">
+              <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg"/>
               <div className="navbar-title">
                 Paul Spencer
               </div>
-          </div>
-        </Link>
-
-      </div>
-
-      <div className="navbar-links">
-
-        <div>
-          <Link to = {"/about"} style={{ textDecoration: 'none' }}>
-            <button className="navbar-link-button">
-              <div className="navbar-link-item">
-                About
-              </div>
-            </button>
+            </div>
           </Link>
         </div>
-
         <div>
-          <Link to = {"/projects"} style={{ textDecoration: 'none' }}>
-            <button className="navbar-link-button">
-              <div className="navbar-link-item">
-                Projects
-              </div>
-            </button>
-          </Link>
-        </div>
 
-        <div>
-          <Link to = {"/contact"} style={{ textDecoration: 'none' }}>
-            <button className="navbar-link-button">
-              <div className="navbar-link-item">
-                Contact
-              </div>
-            </button>
-          </Link>
-        </div>
-
-        <div className="navbar-darkmode-toggle">
-          <img src={darkMode
-            ? "/assets/images/darkmode/lightswitch_on.png"
-            : "/assets/images/darkmode/lightswitch_off.png"}
-            alt="Dark Mode toggle"
-            onClick={handleDarkModeClick}/>
+          <input id="menu-toggle" type="checkbox" />
+          <label className="menu-button-container" for="menu-toggle">
+            <div className="menu-button"></div>
+          </label>
 
         </div>
-      </div>
-    </div>
+
+        <ul className="navbar-links">
+            <li>
+              <Link to = {"/about"} style={{ textDecoration: 'none' }}>
+                <button className="navbar-link-button">
+                  <div className="navbar-link-item">
+                    About
+                  </div>
+                </button>
+              </Link>
+            </li>
+
+            <li>
+              <Link to = {"/projects"} style={{ textDecoration: 'none' }}>
+                <button className="navbar-link-button">
+                  <div className="navbar-link-item">
+                    Projects
+                  </div>
+                </button>
+              </Link>
+            </li>
+
+            <li>
+              <Link to = {"/contact"} style={{ textDecoration: 'none' }}>
+                <button className="navbar-link-button">
+                  <div className="navbar-link-item">
+                    Contact
+                  </div>
+                </button>
+              </Link>
+            </li>
+          </ul>
+
+{/*           <div className="navbar-darkmode-toggle">
+            <img src={darkMode
+              ? "/assets/images/darkmode/lightswitch_on.png"
+              : "/assets/images/darkmode/lightswitch_off.png"}
+              alt="Dark Mode toggle"
+              onClick={handleDarkModeClick}/>
+          </div> */}
+        </div>
+
+
+
+
+
+
+
+
   )
 
 
