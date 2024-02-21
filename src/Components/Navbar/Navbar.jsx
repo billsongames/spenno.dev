@@ -49,11 +49,6 @@ const Navbar = () => {
         </div>
         <div>
 
-          <input id="menu-toggle" type="checkbox" />
-          <label className="menu-button-container" for="menu-toggle">
-            <div className="menu-button"></div>
-          </label>
-
         </div>
 
         <ul className="navbar-links">
@@ -88,13 +83,13 @@ const Navbar = () => {
             </li>
           </ul>
 
-{/*           <div className="navbar-darkmode-toggle">
+          <div className="navbar-darkmode-toggle">
             <img src={darkMode
               ? "/assets/images/darkmode/lightswitch_on.png"
               : "/assets/images/darkmode/lightswitch_off.png"}
               alt="Dark Mode toggle"
               onClick={handleDarkModeClick}/>
-          </div> */}
+          </div>
         </div>
 
 
