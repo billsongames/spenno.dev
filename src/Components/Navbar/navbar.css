@@ -116,12 +116,26 @@
 .navbar-hamburger-button-image-open {
   content: url("../../../public/assets/images/buttons/menu-open.png");
   max-width:100%;
-  z-index: 0
+  z-index: 0;
+  color: red;
 }
 
 .navbar-hamburger-button-image-close {
   position: relative;
   content: url("../../../public/assets/images/buttons/menu-close.png");
+  max-width:100%;
+  z-index: 1
+}
+
+.navbar-hamburger-button-image-open-darkmode {
+  content: url("../../../public/assets/images/buttons/menu-open-darkmode.png");
+  max-width:100%;
+  z-index: 0
+}
+
+.navbar-hamburger-button-image-close-darkmode {
+  position: relative;
+  content: url("../../../public/assets/images/buttons/menu-close-darkmode.png");
   max-width:100%;
   z-index: 1
 }

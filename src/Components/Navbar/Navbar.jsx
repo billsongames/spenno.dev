@@ -26,24 +26,38 @@ const Navbar = () => {
     r.style.setProperty("--project-card-background", themeColors.lightProjectCard)
   }
 
-  if (darkMode) {
-    console.log("dark mode on")
-  } else {
-    console.log("dark mode off")
-  }
+  
 
   const handleDarkModeClick = () => {
     toggleDarkMode()
   }
 
   const handleHamburgerClick = () => {
+
     document.querySelector(".navbar-hamburger-links").style.display =
       (document.querySelector(".navbar-hamburger-links").style.display === "flex") ? "none" : "flex"
 
     document.getElementById("navbar-hamburger-button-image").className =
       (document.getElementById("navbar-hamburger-button-image").className === "navbar-hamburger-button-image-open")
-        ? "navbar-hamburger-button-image-close"
-        : "navbar-hamburger-button-image-open"
+      ? "navbar-hamburger-button-image-close"
+      : "navbar-hamburger-button-image-open"
+
+   /*  if (darkMode) {
+      document.getElementById("navbar-hamburger-button-image").className =
+        (document.getElementById("navbar-hamburger-button-image").className === "navbar-hamburger-button-image-open-darkmode")
+          ? "navbar-hamburger-button-image-close-darkmode"
+          : "navbar-hamburger-button-image-open-darkmode"
+
+      } else {
+        document.getElementById("navbar-hamburger-button-image").className =
+          (document.getElementById("navbar-hamburger-button-image").className === "navbar-hamburger-button-image-open")
+          ? "navbar-hamburger-button-image-close"
+          : "navbar-hamburger-button-image-open"
+    } */
+
+
+
+
   }
 
   /*   document.querySelector(".navbar-hamburger-button").addEventListener("click", handleHamburgerClick) */
@@ -96,7 +110,12 @@ const Navbar = () => {
 
       <div id="navbar-hamburger-menu">
         <div className="navbar-hamburger-button" onClick={handleHamburgerClick}>
-          <img alt="Menu button" className="navbar-hamburger-button-image-open" id="navbar-hamburger-button-image" />
+          <img alt="Menu button" className="navbar-hamburger-button-image-open"
+   /*           className={darkMode
+                ? "navbar-hamburger-button-image-open-darkmode"
+                : "navbar-hamburger-button-image-open"
+             }   */        
+              id="navbar-hamburger-button-image" />
         </div>
         <ul className="navbar-hamburger-links">
           <li>
