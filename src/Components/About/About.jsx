@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { DarkModeContext } from "../../context/DarkModeContext";
 
+import TechEntry from "../TechEntry/TechEntry";
+
 
 
 import "./about.css"
@@ -25,7 +27,18 @@ const About = () => {
             I have a strong enthusiasm for anything to do with the 1980s, particularly retro game related stuff and rock music.
             This is probably why I enjoy playing video games and electric guitar, although not necessarily at the same time, unless it's a quick blast on Guitar Hero.
           </div>
+          <div className="about-text">
+            <strong>Tech skills:</strong>
+          </div>
+          <div className="about-tech-skills">
+            <TechEntry id="html5" />
+            <TechEntry id="css" />
+            <TechEntry id="js" />
+            <TechEntry id="react-atom" />
+            <TechEntry id="godot-text" />
+          </div>
         </div>
+  
       </div>
 
 

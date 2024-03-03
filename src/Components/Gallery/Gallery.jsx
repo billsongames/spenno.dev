@@ -19,6 +19,7 @@ const Gallery = ({appName, imageTotal}) => {
   for (let i=1; i<imageTotal+1; i++) {
     jsx.push(
         <img
+          key={i}
           id = {i}
           className="gallery-thumb"
           src={`${path}${i}.png`}

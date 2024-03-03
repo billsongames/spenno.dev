@@ -25,7 +25,7 @@ const Home = () => {
           <img src="/assets/images/profile/ps.jpeg" className="about-intro-profilePic"/>
         </div>
         <div className="home-about-text">
-          <div class>
+          <div>
             Hi. I'm Paul Spencer
           </div>
           <div>

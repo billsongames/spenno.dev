@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { DarkModeContext } from "../../../context/DarkModeContext";
+
+import TechEntry from "../../TechEntry/TechEntry"
 import Gallery from "../../Gallery/Gallery";
 
 
@@ -40,29 +42,31 @@ const Radiogram = () => {
               <li>Google log in</li>
               <li>Save and retrieve favourite stations once logged in</li>
             </ul>
+            <div className="project-tech-container">
             <div className="project-text">
-              Links to website and github repo
+            <strong>Tech used:</strong>
             </div>
-            <div>
-              <Gallery appName={appName} imageTotal={imageTotal} />
+            <div className="project-tech-list">
+              <TechEntry id="react" />
+              <TechEntry id="firebase" />
             </div>
           </div>
 
-          <div className="project-tech-container">
-            <div className="project-text">
-              Tech used:
+          <div className="project-text">
+            <strong>Links:</strong> 
+            <div className="project-tech-list">
+              <a href="https://github.com/billsongames/radiogram" target="blank">
+                <TechEntry id="github" />
+              </a>
             </div>
-            <div className="project-tech-entry">
-              <div>
-              <img src="/assets/images/tech_logos/react_logo.png" className="project-tech-logo" alt="React"/>
-              </div>
-            </div>
-            <div className="project-tech-entry">
-              <div>
-              <img src="/assets/images/tech_logos/firebase_logo.png" className="project-tech-logo" alt="Firebase"/>
-              </div>
-            </div>
+         </div >
+
+          <div>
+            <Gallery appName={appName} imageTotal={imageTotal} />
           </div>
+          </div>
+
+
 
         </div>
       </div>

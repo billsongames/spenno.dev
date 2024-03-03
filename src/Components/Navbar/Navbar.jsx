@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { DarkModeContext } from "../../context/DarkModeContext"
 import { Link } from "react-router-dom";
@@ -12,6 +12,7 @@ import "./navbar.css"
 
 const Navbar = () => {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext)
+  const [hamburgerActive, setHamburgerActive] = useState(false)
 
   const r = document.querySelector(':root');
 
@@ -33,14 +34,31 @@ const Navbar = () => {
   }
 
   const handleHamburgerClick = () => {
+    setHamburgerActive(!hamburgerActive)
 
-    document.querySelector(".navbar-hamburger-links").style.display =
-      (document.querySelector(".navbar-hamburger-links").style.display === "flex") ? "none" : "flex"
+    async function hamburgerFormat() {
+      document.querySelector(".navbar-hamburger-links").style.display =
+        (document.querySelector(".navbar-hamburger-links").style.display === "flex") ? "none" : "flex"
 
-    document.getElementById("navbar-hamburger-button-image").className =
-      (document.getElementById("navbar-hamburger-button-image").className === "navbar-hamburger-button-image-open")
+      document.getElementById("navbar-hamburger-button-image").className =
+      (darkMode & hamburgerActive)
+      ? "navbar-hamburger-button-image-close-darkmode"
+
+      : (darkMode & document.getElementById("navbar-hamburger-button-image").className === "navbar-hamburger-button-image-close-darkmode")
+      ? "navbar-hamburger-button-image-open-darkmode"
+
+      : hamburgerActive
       ? "navbar-hamburger-button-image-close"
+
       : "navbar-hamburger-button-image-open"
+    }
+
+    hamburgerFormat()
+  }
+
+
+
+
 
    /*  if (darkMode) {
       document.getElementById("navbar-hamburger-button-image").className =
@@ -58,7 +76,7 @@ const Navbar = () => {
 
 
 
-  }
+  
 
   /*   document.querySelector(".navbar-hamburger-button").addEventListener("click", handleHamburgerClick) */
 
@@ -110,12 +128,20 @@ const Navbar = () => {
 
       <div id="navbar-hamburger-menu">
         <div className="navbar-hamburger-button" onClick={handleHamburgerClick}>
-          <img alt="Menu button" className="navbar-hamburger-button-image-open"
-   /*           className={darkMode
-                ? "navbar-hamburger-button-image-open-darkmode"
-                : "navbar-hamburger-button-image-open"
-             }   */        
-              id="navbar-hamburger-button-image" />
+          <img alt="Menu button" id="navbar-hamburger-button-image"
+            className={
+            (darkMode & hamburgerActive)
+            ? "navbar-hamburger-button-image-close-darkmode"
+      
+            : (darkMode)
+            ? "navbar-hamburger-button-image-open-darkmode"
+      
+            : hamburgerActive
+            ? "navbar-hamburger-button-image-close"
+      
+            : "navbar-hamburger-button-image-open"
+            }
+               />
         </div>
         <ul className="navbar-hamburger-links">
           <li>

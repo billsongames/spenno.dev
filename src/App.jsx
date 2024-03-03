@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useContext} from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import ScrollToTop from './functions/scrollToTop';
 import { DarkModeProvider } from "./context/DarkModeContext";
 
 import './App.css';
@@ -23,6 +24,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="App">
         <DarkModeProvider>
           <Navbar />
@@ -43,7 +45,6 @@ const App = () => {
           <Footer />
         </DarkModeProvider>
       </div>
-
     </BrowserRouter>
 
 

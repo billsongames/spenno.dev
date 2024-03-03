@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { DarkModeContext } from "../../../context/DarkModeContext";
+
+import TechEntry from "../../TechEntry/TechEntry"
 import Gallery from "../../Gallery/Gallery";
 
 
@@ -24,24 +26,32 @@ const NASA = () => {
           <div className="project-text">
             App features:
           </div>
-          <div className="project-text">
-            Links to website and github repo
+
+          <div className="project-tech-container">
+            <div className="project-text">
+            <strong>Tech used:</strong>
+            </div>
+            <div className="project-tech-list">
+              <TechEntry id="react" />
+            </div>
           </div>
+
+          <div className="project-text">
+            <strong>Links:</strong> 
+            <div className="project-tech-list">
+              <a href="https://github.com/billsongames/tech-test" target="blank">
+                <TechEntry id="github" />
+              </a>
+            </div>
+          </div >
+
           <div>
             <Gallery appName={appName} imageTotal={imageTotal} />
           </div>
+   
         </div>
 
-        <div className="project-tech-container">
-          <div className="project-text">
-            Tech used:
-          </div>
-          <div className="project-tech-entry">
-            <div>
-            <img src="/assets/images/tech_logos/react_logo.png" className="project-tech-logo" alt="React"/>
-            </div>
-          </div>
-        </div>
+
 
       </div>
     </div>

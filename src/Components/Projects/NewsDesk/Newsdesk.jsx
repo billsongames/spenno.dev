@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { DarkModeContext } from "../../../context/DarkModeContext";
+
+import TechEntry from "../../TechEntry/TechEntry"
 import Gallery from "../../Gallery/Gallery";
 
 
@@ -43,24 +45,27 @@ const NewsDesk = () => {
           <div className="project-text">
             <a href="https://www.youtube.com/watch?v=Z8IzX-SCc8c" target="blank">YouTube presentation</a>
           </div>
+          <div className="project-tech-container">
+            <div className="project-text">
+            <strong>Tech used:</strong>
+            </div>
+            <div className="project-tech-list">
+              <TechEntry id="react" />
+              <TechEntry id="supabase" />
+            </div>
+          </div>
+
+          <div className="project-text">
+            <strong>Links:</strong> 
+            <div className="project-tech-list">
+              <a href="https://github.com/billsongames/newsdesk" target="blank">
+                <TechEntry id="github" />
+              </a>
+            </div>
+          </div >
+
           <div>
             <Gallery appName={appName} imageTotal={imageTotal} />
-          </div>
-        </div>
-
-        <div className="project-tech-container">
-          <div className="project-text">
-            Tech used:
-          </div>
-                    <div className="project-tech-entry">
-            <div>
-            <img src="/assets/images/tech_logos/react_logo.png" className="project-tech-logo" alt="React"/>
-            </div>
-          </div>
-          <div className="project-tech-entry">
-            <div>
-            <img src="/assets/images/tech_logos/supabase-logo-dark.png" className="project-tech-logo" alt="supabase"/>
-            </div>
           </div>
         </div>
       </div>

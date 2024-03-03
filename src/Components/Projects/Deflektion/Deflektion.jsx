@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { DarkModeContext } from "../../../context/DarkModeContext";
 
+import TechEntry from "../../TechEntry/TechEntry";
 import Gallery from "../../Gallery/Gallery";
 
 
@@ -43,25 +44,29 @@ const Deflektion = () => {
             Deflektion is available for Android and Windows platforms.
           </div>
 
-          <div className="project-text">
-            Links to itch.io page
+          <div className="project-tech-container">
+            <div className="project-text">
+              <strong>Tech used:</strong>
+              
+            </div>
+            <div className="project-tech-list">
+              <TechEntry id="godot" />
+            </div>
           </div>
+
+          <div className="project-text">
+            <strong>Links:</strong>            
+          </div>  
+          <div className="project-tech-list">
+            <a href="https://billsongames.itch.io/deflektion" target="blank">
+              <TechEntry id="itch" />
+            </a>
+          </div>
+
           <div>
             <Gallery appName={appName} imageTotal={imageTotal} />
           </div>
         </div>
-
-        <div className="project-tech-container">
-          <div className="project-text">
-            Tech used:
-          </div>
-          <div className="project-tech-entry">
-            <div>
-            <img src="/assets/images/tech_logos/godot_logo.png" className="project-tech-logo" alt="Godot Game Engine"/>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   )
