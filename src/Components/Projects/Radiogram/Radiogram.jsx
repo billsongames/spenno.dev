@@ -16,7 +16,7 @@ const Radiogram = () => {
           Radiogram
         </div>
         <div className="project-text">
-        A radio streaming app to enhance your listening pleasure
+          <strong>A radio streaming app to enhance your listening pleasure</strong>
         </div>
 
         <div className="project-page">
@@ -34,7 +34,7 @@ const Radiogram = () => {
               Users can log in to the app to save their favourite stations.
             </div>
             <div className="project-text">
-              App features:
+              <strong>App features:</strong>
             </div>
             <ul className="project-features">
               <li>Internet radio streaming</li>
@@ -54,12 +54,15 @@ const Radiogram = () => {
 
           <div className="project-text">
             <strong>Links:</strong> 
-            <div className="project-tech-list">
-              <a href="https://github.com/billsongames/radiogram" target="blank">
-                <TechEntry id="github" />
-              </a>
-            </div>
-         </div >
+          </div>  
+          <div className="project-tech-list">
+            <a href="https://radiogram.onrender.com/" target="blank">
+              <TechEntry id="radiogram" />
+            </a>
+            <a href="https://github.com/billsongames/radiogram" target="blank">
+              <TechEntry id="github" />
+            </a>
+          </div>
 
           <div>
             <Gallery appName={appName} imageTotal={imageTotal} />

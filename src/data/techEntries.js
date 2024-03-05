@@ -67,7 +67,33 @@ export const techEntries = [
     logoDark: "/assets/images/tech-logos/supabase-logo-dark.png"
   },
 
-/*   ###### PROFILE ###### */
+/*   ###### APPS ###### */
+
+  {
+    id: "radiogram",
+    name: "radiogram",
+    logoLight: "/assets/images/app-logos/radiogram-logo-light.png",
+    logoDark: "/assets/images/app-logos/radiogram-logo-dark.png"
+  },
+
+  {
+    id: "newsdesk",
+    name: "NewsDesk",
+    logoLight: "/assets/images/app-logos/newsdesk-logo-light.png",
+    logoDark: "/assets/images/app-logos/newsdesk-logo-dark.png"
+  },
+
+  {
+    id: "nasa",
+    name: "NASA Image Search",
+    logoLight: "/assets/images/app-logos/nasa-logo.png",
+    logoDark: "/assets/images/app-logos/nasa-logo.png"
+  },
+
+
+
+
+  /*   ###### PROFILE ###### */
 
   {
     id: "github",
@@ -83,6 +109,26 @@ export const techEntries = [
     logoDark: "/assets/images/tech-logos/itch-logo-dark.png"
   },
 
+  {
+    id: "linkedin-square",
+    name: "LinkedIn",
+    logoLight: "/assets/images/tech-logos/linkedin-logo-square-light.png",
+    logoDark: "/assets/images/tech-logos/linkedin-logo-square-dark.png"
+  },
+
+  {
+    id: "linkedin",
+    name: "LinkedIn",
+    logoLight: "/assets/images/tech-logos/linkedin-logo-light.png",
+    logoDark: "/assets/images/tech-logos/linkedin-logo-light.png"
+  },
+
+  {
+    id: "youtube",
+    name: "YouTube",
+    logoLight: "/assets/images/tech-logos/youtube-logo-light.png",
+    logoDark: "/assets/images/tech-logos/youtube-logo-dark.png"
+  },
 
 ]
 

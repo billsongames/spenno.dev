@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { DarkModeContext } from "../../context/DarkModeContext";
 
-import TechEntry from "../TechEntry/TechEntry";
+import AboutEntry from "./AboutEntry";
 
 
 
@@ -31,11 +31,11 @@ const About = () => {
             <strong>Tech skills:</strong>
           </div>
           <div className="about-tech-skills">
-            <TechEntry id="html5" />
-            <TechEntry id="css" />
-            <TechEntry id="js" />
-            <TechEntry id="react-atom" />
-            <TechEntry id="godot-text" />
+            <AboutEntry id="html5" />
+            <AboutEntry id="css" />
+            <AboutEntry id="js" />
+            <AboutEntry id="react-atom" />
+            <AboutEntry id="godot-text" />
           </div>
         </div>
   

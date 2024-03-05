@@ -16,7 +16,7 @@ const RotaDroid = () => {
         RotaDroid
       </div>
       <div className="project-text">
-        A new spin on an old genre.
+        <strong>A new spin on an old genre</strong>
       </div>
 
       <div className="project-page">
@@ -25,7 +25,7 @@ const RotaDroid = () => {
             Destroying bricks using geometric shapes has never been so much fun! Progress through the levels, get the pick ups but watch out for the aliens!
           </div>
           <div className="project-text">
-            Game features:
+            <strong>Game features:</strong>
           </div>
           <ul className="project-features">
             <li>32 levels of brick breaking action</li>
@@ -43,7 +43,7 @@ const RotaDroid = () => {
 
           <div className="project-tech-container">
             <div className="project-text">
-            <strong>Tech used:</strong>
+              <strong>Tech used:</strong>
             </div>
             <div className="project-tech-list">
               <TechEntry id="godot" />
@@ -51,14 +51,13 @@ const RotaDroid = () => {
           </div>
 
           <div className="project-text">
-            <strong>Links:</strong> 
-            <div className="project-tech-list">
-              <a href="https://billsongames.itch.io/rotadroid" target="blank">
-                <TechEntry id="itch" />
-              </a>
-            </div>
-         </div >
-
+            <strong>Links:</strong>
+          </div>  
+          <div className="project-tech-list">
+            <a href="https://billsongames.itch.io/rotadroid" target="blank">
+              <TechEntry id="itch" />
+            </a>
+          </div>
           <div>
             <Gallery appName={appName} imageTotal={imageTotal} />
           </div>

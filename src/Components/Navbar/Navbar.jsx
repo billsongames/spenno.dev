@@ -60,38 +60,25 @@ const Navbar = () => {
 
 
 
-   /*  if (darkMode) {
-      document.getElementById("navbar-hamburger-button-image").className =
-        (document.getElementById("navbar-hamburger-button-image").className === "navbar-hamburger-button-image-open-darkmode")
-          ? "navbar-hamburger-button-image-close-darkmode"
-          : "navbar-hamburger-button-image-open-darkmode"
 
-      } else {
-        document.getElementById("navbar-hamburger-button-image").className =
-          (document.getElementById("navbar-hamburger-button-image").className === "navbar-hamburger-button-image-open")
-          ? "navbar-hamburger-button-image-close"
-          : "navbar-hamburger-button-image-open"
-    } */
-
-
-
-
-  
-
-  /*   document.querySelector(".navbar-hamburger-button").addEventListener("click", handleHamburgerClick) */
 
 
   return (
     <div className="navbar-container">
-      <div>
-        <Link to={"/"} style={{ textDecoration: 'none' }}>
-          <div className="navbar-title-container">
-            <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg" />
-            <div className="navbar-title">
-              Paul Spencer
-            </div>
-          </div>
-        </Link>
+        <div className="navbar-title-container">
+          <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg" />
+          <div className="navbar-title-text">
+            <Link to={"/"} style={{ textDecoration: 'none' }}>
+              <div className="navbar-title-name">
+                Paul Spencer
+              </div>
+            </Link>  
+            <NavbarLinks />
+        </div>
+
+        
+
+
       </div>
 
       <ul className="navbar-links">

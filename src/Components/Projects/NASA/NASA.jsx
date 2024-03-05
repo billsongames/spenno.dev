@@ -24,12 +24,22 @@ const NASA = () => {
             Type in a search query, click "Launch" and marvel at the beauty of the universe, all on the same screen.
           </div>
           <div className="project-text">
-            App features:
+            <strong>App features:</strong>
           </div>
+
+          <ul className="project-features">
+            <li>Photos of Near-Earth Objects </li>
+            <li>Photos of Deep Space Objects</li>
+            <li>Photos of spacecraft</li>
+            <li>Photos of planets</li>
+            <li>Searching for and viewing all of the above and more</li>
+          </ul>
+
+
 
           <div className="project-tech-container">
             <div className="project-text">
-            <strong>Tech used:</strong>
+              <strong>Tech used:</strong>
             </div>
             <div className="project-tech-list">
               <TechEntry id="react" />
@@ -37,13 +47,16 @@ const NASA = () => {
           </div>
 
           <div className="project-text">
-            <strong>Links:</strong> 
+            <strong>Links:</strong>
+          </div>  
             <div className="project-tech-list">
+              <a href="https://nasa-gallery-search.netlify.app/" target="blank">
+                <TechEntry id="nasa" />
+              </a>
               <a href="https://github.com/billsongames/tech-test" target="blank">
                 <TechEntry id="github" />
               </a>
             </div>
-          </div >
 
           <div>
             <Gallery appName={appName} imageTotal={imageTotal} />

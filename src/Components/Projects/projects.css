@@ -162,9 +162,6 @@
   color: var(--text-color)
 }
 
-.project-page{
-  padding: 1em 0
-}
 
 .project-features{
   list-style: square;

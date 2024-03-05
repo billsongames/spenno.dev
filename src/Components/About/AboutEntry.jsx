@@ -3,9 +3,9 @@ import { DarkModeContext } from "../../context/DarkModeContext";
 
 import { techEntries } from "../../data/techEntries";
 
-import "./techEntry.css"
+import "./about.css"
 
-const TechEntry = ({id}) => {
+const AboutEntry = ({id}) => {
   const [index, setIndex] = useState(0)
   const [name, setName] = useState("")
 
@@ -22,13 +22,13 @@ const TechEntry = ({id}) => {
   },[])
 
   return(
-    <div className="tech-entry">
+    <div className="about-entry">
       {darkMode
-        ? <img src={techEntries[index].logoLight} className="project-tech-logo" alt={techEntries[index].name} />
-        : <img src={techEntries[index].logoDark} className="project-tech-logo" alt={techEntries[index].name} />
+        ? <img src={techEntries[index].logoLight} className="about-tech-logo" alt={techEntries[index].name} />
+        : <img src={techEntries[index].logoDark} className="about-tech-logo" alt={techEntries[index].name} />
       }
     </div>
   )
 }
 
-export default TechEntry
+export default AboutEntry
