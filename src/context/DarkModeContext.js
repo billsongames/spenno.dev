@@ -6,8 +6,9 @@ const DarkModeContext = createContext()
 
 function DarkModeProvider(props) {
 
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(localStorage.getItem("darkMode"))
   const toggleDarkMode = () => {
+    localStorage.setItem("darkMode", `${!darkMode}`)
     setDarkMode(!darkMode)
   }
 
