@@ -13,7 +13,7 @@ const Radiogram = () => {
   return(
       <div className="project-page-container">
         <div className="project-title">
-          Radiogram
+          radiogram
         </div>
         <div className="project-text">
           <strong>A radio streaming app to enhance your listening pleasure</strong>
