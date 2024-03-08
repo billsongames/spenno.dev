@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
+}
+
+.about-container{
+  margin: 2em;
+}
+
+.about-intro-container{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin: 2em 0;
+  background-color: var(--background-color);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1em;
+}
+
+.about-intro-profilePic{
+  margin: 1em;
+  width: 80%;
+  border-radius: 1em;
+}
+
+.about-title{
+  padding: 0.5em 0 0 0.5em;
+  font-family: Rubik-Regular, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: left;
+
+}
+
+.about-text{
+  padding: 0.5em;
+  text-align: left;
+  font-family: Rubik-Regular, serif;
+  font-size: 1em;
+  color: var(--text-color)
+}
+
+.about-text > a{
+  color: var(--text-color)
+}
+
+.about-history-container{
+  background-color: var(--background-color);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1em;
+}
+
+.about-tech-skills{
+  margin: 1em 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about-tech-logo{
+  max-width: 6em;
+}

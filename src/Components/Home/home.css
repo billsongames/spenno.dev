@@ -1,33 +1,45 @@
 @font-face {
-  font-family: "PermanentMarker-Regular";
-  src: local("PermanentMarker-Regular"), url(../../assets/fonts/PermanentMarker-Regular.ttf);
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
 }
 
-.title__container {
-  padding: 32px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border: solid whitesmoke 2px;
-  border-radius: 8px;
+
+
+.home-container {
+  margin: 2em;
+  background-color: var(--background-color);
+  border-radius: 1em;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1em;
+  padding: 1em;
+  transition: 0.2s;
 }
 
-.title {
-  font-family: PermanentMarker-Regular, serif;
-  font-size: 16px;
-  color: whitesmoke;
+.home-title {
+  font-family: Rubik-Regular, serif;
+  font-size: 3em;
+  color: var(--text-color);
+  padding: 0.25em
 }
 
-.title__underConstruction {
-  margin: 12px;
-  align-content: center;
+.home-about-container{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin: 2em;
+  background-color: var(--background-color);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1em;
 }
 
-.title__underConstruction > img {
-  border-radius: 8px;
+.home-about-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+  color: var(--text-color);
 }
 
-.title__underConstruction__text {
-  font-size: 18px;
-}
+/* ###################################### */
+

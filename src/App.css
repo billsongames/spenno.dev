@@ -1,5 +1,30 @@
-.App {  
+@font-face {
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"), url(./assets/fonts/Rubik-Regular.ttf);
+}
+
+.App {
+  margin: auto;
+  width:100%;
+  max-width:1280px;
   text-align: center;
+}
+
+.section-title{
+  font-family: Rubik-Regular, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: left;
+  padding: 0 0.5em
+}
+
+.text-section{
+  margin: 2em 0;
+  padding: 1em;
+  background-color: var(background-color);
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px;
 }
 
 

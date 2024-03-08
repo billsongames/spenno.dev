@@ -1,0 +1,54 @@
+.gallery-container{
+  margin: 1em auto;
+  background-color: var(--background-color);
+}
+
+.gallery-title{
+  padding: 1em 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--text-color)
+
+}
+
+.gallery-mainImage{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gallery-mainImage-pic{
+  width: 100%;
+  border: 2px solid;
+  border-color: var(--text-color);
+}
+
+.gallery-thumb-container{
+  padding: 1em 0;
+  width: 100%;
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+
+.gallery-thumb{
+  margin: auto;
+  box-sizing: border-box;
+  border-width: 2px;
+  width: 98%;
+  cursor: pointer;
+  transition: 0.1s;
+  border-style: solid;
+  border-color: black;
+}
+
+.gallery-thumb:hover{
+  scale: 1.2;
+  border-color: black;
+  z-index: 2
+
+}

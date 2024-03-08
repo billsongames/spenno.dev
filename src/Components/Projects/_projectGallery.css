@@ -1,0 +1,12 @@
+.projectGallery{
+  margin: auto;
+  width: 60%;
+  background-color: #101010;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.projectGalleryImage{
+  margin: auto;
+  width: 90%
+}
