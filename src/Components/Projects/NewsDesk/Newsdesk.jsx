@@ -58,7 +58,7 @@ const NewsDesk = () => {
             <strong>Links:</strong>
           </div>  
             <div className="project-tech-list">
-            <a href="https://github.com/billsongames/newsdesk" target="blank">
+            <a href="https://newsdesk.onrender.com/" target="blank">
               <TechEntry id="newsdesk" />
               </a>
               <a href="https://www.youtube.com/watch?v=Z8IzX-SCc8c" target="blank">

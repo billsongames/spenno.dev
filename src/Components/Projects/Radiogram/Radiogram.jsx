@@ -25,7 +25,7 @@ const Radiogram = () => {
               <li>Working from home?</li>
               <li>Bit quiet in the "office"?</li>
               <li>Tired of listening to kids screaming?</li>
-              <li>Fed up of next doors noisy power tools?</li>
+              <li>Fed up of noisy power tools next door?</li>
               <li>All this modern music sounds the same?</li>
             </ul>
             <div className="project-text">
