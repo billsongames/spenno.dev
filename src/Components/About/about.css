@@ -5,16 +5,19 @@
 
 .about-container{
   margin: 2em;
+  padding: 0.5em
 }
 
 .about-intro-container{
+  padding: 0.5em;
   display: grid;
   grid-template-columns: 20% 80%;
   margin: 2em 0;
   background-color: var(--background-color);
-  border-width: 2px;
+  border-width: var(--borderWidth);
   border-style: solid;
   border-radius: 1em;
+  border-color: var(--text-color);
 }
 
 .about-intro-profilePic{
@@ -24,7 +27,7 @@
 }
 
 .about-title{
-  padding: 0.5em 0 0 0.5em;
+  padding: 0.5em;
   font-family: Rubik-Regular, serif;
   font-size: 1.5em;
   font-weight: bold;
@@ -34,7 +37,7 @@
 }
 
 .about-text{
-  padding: 0.5em;
+  padding: 1em;
   text-align: left;
   font-family: Rubik-Regular, serif;
   font-size: 1em;
@@ -46,10 +49,12 @@
 }
 
 .about-history-container{
+  padding: 0.5em;
   background-color: var(--background-color);
-  border-width: 2px;
+  border-width: var(--borderWidth);
   border-style: solid;
   border-radius: 1em;
+  border-color: var(--text-color);
 }
 
 .about-tech-skills{

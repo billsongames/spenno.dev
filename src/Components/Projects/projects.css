@@ -7,13 +7,14 @@
   margin: 2em;
   background-color: var(--background-color);
   border-radius: 1em;
-  border-width: 2px;
+  border-width: var(--borderWidth);
   border-style: solid;
   padding: 0.5em;
+  border-color: var(--text-color);
 }
 
 .projects-title{
-  padding: 0.25em 0.25em;
+  padding: 0.5em;
   font-size: 1.5em;
   font-weight: bold;
   text-align: left;
@@ -46,10 +47,11 @@
   width: 90%;
   position: relative;
   align-content: center;
-  border-width: 2px;
+  border-width: var(--borderWidth);
   border-style: solid;
   border-radius: 1em;
   background-color: var(--project-card-background);
+  border-color: var(--text-color);
   transition: 0.2s;
 }
 
@@ -150,9 +152,10 @@
   text-align: left;
   background-color: var(--background-color);
   padding: 1em;
-  border-width: 2px;
+  border-width: var(--borderWidth);;
   border-style: solid;
   border-radius: 1em;
+  border-color: var(--text-color);
 }
 
 .project-title{

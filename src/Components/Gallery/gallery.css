@@ -38,12 +38,12 @@
 .gallery-thumb{
   margin: auto;
   box-sizing: border-box;
-  border-width: 2px;
+  border-width: var(--borderwidth);
   width: 98%;
   cursor: pointer;
   transition: 0.1s;
   border-style: solid;
-  border-color: black;
+  border-color: var(--text-color);
 }
 
 .gallery-thumb:hover{

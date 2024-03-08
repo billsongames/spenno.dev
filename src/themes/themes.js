@@ -4,5 +4,8 @@ export const themeColors =
   lightColor: "#F5F5F5",
 
   darkProjectCard: "#222831",
-  lightProjectCard: "#F5F5F5"
+  lightProjectCard: "#F5F5F5",
+
+  borderWidth: "3px"
+
 }

@@ -16,6 +16,8 @@ const Navbar = () => {
 
   const r = document.querySelector(':root');
 
+  r.style.setProperty("--borderWidth", themeColors.borderWidth)
+
   if (darkMode) {
     r.style.setProperty("--background-color", themeColors.darkColor)
     r.style.setProperty("--text-color", themeColors.lightColor)

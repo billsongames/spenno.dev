@@ -9,11 +9,12 @@
   margin: 2em;
   background-color: var(--background-color);
   border-radius: 1em;
-  border-width: 2px;
+  border-width: var(--borderWidth);;
   border-style: solid;
   border-radius: 1em;
   padding: 1em;
   transition: 0.2s;
+  border-color: var(--text-color);
 }
 
 .home-title {
@@ -28,9 +29,10 @@
   grid-template-columns: 20% 80%;
   margin: 2em;
   background-color: var(--background-color);
-  border-width: 2px;
+  border-width: var(--borderWidth);
   border-style: solid;
   border-radius: 1em;
+  border-color: var(--text-color);
 }
 
 .home-about-text{
