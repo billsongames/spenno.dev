@@ -96,10 +96,25 @@ export const techEntries = [
   /*   ###### PROFILE ###### */
 
   {
+    id: "email",
+    name: "email",
+    logoLight: "/assets/images/tech-logos/email-logo-light.png",
+    logoDark: "/assets/images/tech-logos/email-logo-dark.png"
+  },
+
+
+  {
     id: "github",
     name: "GitHub",
     logoLight: "/assets/images/tech-logos/github-logo-light.png",
     logoDark: "/assets/images/tech-logos/github-logo-dark.png"
+  },
+
+  {
+    id: "github-square",
+    name: "GitHub",
+    logoLight: "/assets/images/tech-logos/github-logo-square-light.png",
+    logoDark: "/assets/images/tech-logos/github-logo-square-dark.png"
   },
 
   {
@@ -110,10 +125,18 @@ export const techEntries = [
   },
 
   {
+    id: "itch-square",
+    name: "itch.io",
+    logoLight: "/assets/images/tech-logos/itch-logo-square-light.png",
+    logoDark: "/assets/images/tech-logos/itch-logo-square-dark.png"
+  },
+
+
+  {
     id: "linkedin-square",
     name: "LinkedIn",
-    logoLight: "/assets/images/tech-logos/linkedin-logo-square-light.png",
-    logoDark: "/assets/images/tech-logos/linkedin-logo-square-dark.png"
+    logoLight: "/assets/images/tech-logos/linkedin-logo-square.png",
+    logoDark: "/assets/images/tech-logos/linkedin-logo-square.png"
   },
 
   {
