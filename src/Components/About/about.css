@@ -66,5 +66,10 @@
 
 .about-tech-logo{
   max-width: 3em;
-  padding: 0 0.5em 
+  padding: 0 0.5em;
+  transition-duration: 0.2s;
+}
+
+.about-tech-logo:hover{
+  scale: 1.2
 }

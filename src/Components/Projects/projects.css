@@ -23,7 +23,7 @@
 
 .projects-intro{
   margin-top: 0px;
-  padding: 0.5em;
+  padding: 1em;
   font-family: Rubik-Regular, serif;
   color: var(--text-color);
   text-align: left;
@@ -151,7 +151,7 @@
   font-size: 1em;
   text-align: left;
   background-color: var(--background-color);
-  padding: 1em;
+  padding: 0.5em;
   border-width: var(--borderWidth);;
   border-style: solid;
   border-radius: 1em;
@@ -159,6 +159,7 @@
 }
 
 .project-title{
+  padding: 0.5em;
   font-family: Rubik-Regular, serif;
   font-size: 1.5em;
   font-weight: bold;
@@ -180,7 +181,7 @@
 }
 
 .project-text{
-  padding: 1em 0;
+  padding: 1em;
   text-align: left;
   font-family: Rubik-Regular, serif;
   font-size: 1em;
@@ -197,6 +198,7 @@
   flex-wrap: wrap;
   justify-items: center;
   justify-content: start;
+  padding: 0 1em 1em 1em
 }
 
 .project-tech-list > a{
