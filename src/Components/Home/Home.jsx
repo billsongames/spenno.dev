@@ -16,7 +16,7 @@ const Home = () => {
     <div>
       <div className="home-container">
         <div className="home-title">
-          DESIGN {arrow} BUILD {arrow} ENJOY
+          <strong>DESIGN {arrow} BUILD {arrow} ENJOY</strong>
         </div>
         <HomeGallery />
       </div>

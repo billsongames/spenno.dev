@@ -25,9 +25,10 @@
 }
 
 .home-about-container{
-  display: grid;
-  grid-template-columns: 20% 80%;
+  display: block;
+/*   grid-template-columns: 20% 80%; */
   margin: 2em;
+  padding: 1em;
   background-color: var(--background-color);
   border-width: var(--borderWidth);
   border-style: solid;
@@ -45,3 +46,14 @@
 
 /* ###################################### */
 
+@media (max-width: 768px) {
+  .home-title{
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-title{
+    font-size: 1.5em;
+  }
+}

@@ -208,3 +208,9 @@
   }
 
 }
+
+@media (max-width: 425px) {
+  .navbar-title-name{
+    font-size: 1em;
+  }
+}

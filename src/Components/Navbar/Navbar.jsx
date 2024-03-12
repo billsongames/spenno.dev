@@ -68,7 +68,9 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
         <div className="navbar-title-container">
-          <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg" />
+          <Link to={"/"}>
+            <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg" />
+          </Link>
           <div className="navbar-title-text">
             <Link to={"/"} style={{ textDecoration: 'none' }}>
               <div className="navbar-title-name">
