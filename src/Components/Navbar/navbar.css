@@ -6,7 +6,7 @@
 .navbar-container {
   width: 100%;
   max-width: 1280px;
-  padding: 1em 1em 0 0;
+  padding: 1em 0 0 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -182,12 +182,29 @@
 }
 
 @media (max-width: 768px) {
+
+  .navbar-title-profilePic{
+    width: 4em
+  }
+
   .navbar-links {
     display: none;
   }
 
+  .navbar-title-name{
+    font-size: 1.5em;
+  }
+
   #navbar-hamburger-menu {
     display: flex;
+  }
+
+  .navbar-hamburger-button{
+    width: 2em
+  }
+
+  .navbar-darkmode-toggle>img{
+    width: 2em
   }
 
 }
