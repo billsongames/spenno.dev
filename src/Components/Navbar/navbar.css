@@ -131,6 +131,7 @@
   margin: 0 0.5em;
   width: 3em;
   height: 3em;
+  z-index: 1;
   cursor: pointer
 }
 
@@ -199,12 +200,14 @@
     display: flex;
   }
 
-  .navbar-hamburger-button{
-    width: 2em
+  .navbar-hamburger-button > img{
+    width: 2em;
+    cursor: pointer;
   }
 
   .navbar-darkmode-toggle>img{
-    width: 2em
+    width: 2em;
+    cursor: pointer
   }
 
 }

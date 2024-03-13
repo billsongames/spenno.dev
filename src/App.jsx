@@ -25,8 +25,8 @@ const App = () => {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <div className="App">
-        <DarkModeProvider>
+      <DarkModeProvider>
+        <div className="App">
           <Navbar />
           <Routes>
             <Route path = "/" element = {<Home/>} />
@@ -43,8 +43,8 @@ const App = () => {
             <Route path = "contact" element = {<Contact/>} />
           </Routes>
           <Footer />
-        </DarkModeProvider>
-      </div>
+        </div>
+      </DarkModeProvider>  
     </BrowserRouter>
 
 
