@@ -18,7 +18,7 @@ const Navbar = () => {
 
   r.style.setProperty("--borderWidth", themeColors.borderWidth)
 
-  if (darkMode === true) {
+  if (darkMode === "true") {
     r.style.setProperty("--background-color", themeColors.darkColor)
     r.style.setProperty("--text-color", themeColors.lightColor)
     r.style.setProperty("--project-card-background", themeColors.darkProjectCard)
@@ -127,7 +127,7 @@ const Navbar = () => {
             alt="Menu button"
             id="navbar-hamburger-button-image"
             onClick={handleHamburgerClick}
-            src={darkMode === true
+            src={darkMode === "true"
           ? "/assets/images/buttons/menu-open-darkmode.png"
           : "/assets/images/buttons/menu-open.png"}
 
@@ -181,11 +181,11 @@ const Navbar = () => {
 
 
       <div className="navbar-darkmode-toggle">
-        <img src={darkMode === true
+        <img src={darkMode === "true"
           ? "/assets/images/darkmode/lightswitch_on.png"
           : "/assets/images/darkmode/lightswitch_off.png"}
           alt="Dark Mode toggle"
-          onClick={() => toggleDarkMode()} />
+          onClick={() => handleDarkModeClick()} />
       </div>
     </div>
 
