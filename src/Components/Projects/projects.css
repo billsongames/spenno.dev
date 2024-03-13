@@ -42,7 +42,7 @@
 .project-card {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: 2em;
+  margin: 2em 1em;
   padding: 1em;
   position: relative;
   align-content: center;
