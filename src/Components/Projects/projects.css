@@ -42,20 +42,22 @@
 .project-card {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: 2em 1em;
+  margin: 2em;
   padding: 1em;
   position: relative;
   align-content: center;
-  border-width: var(--borderWidth);
-  border-style: solid;
   border-radius: 1em;
+
   background-color: var(--project-card-background);
-  border-color: var(--text-color);
+
   transition: 0.2s;
 }
 
 .project-card:hover{
   background-color: lightslategray;
+/*   border-width: var(--borderWidth);
+  border-style: solid;
+  border-color: var(--text-color); */
 }
 
 .project-logo-container{
@@ -160,7 +162,7 @@
 .project-title{
   padding: 0.5em;
   font-family: Rubik-Regular, serif;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
   color: var(--text-color)
 }

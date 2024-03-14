@@ -45,8 +45,6 @@ const Projects = () => {
             </div>
           </div>
 
-
-
           <div className="project-card">
             <div className="project-logo-container">
               <Link to ={"newsdesk"} className="project-logo">
