@@ -57,18 +57,6 @@ const HomeGallery = () => {
 
   },[currentIndex, images.length])
 
-  useEffect(() => {
-
-  })
-
-
-
-
-
-
-
-
-
 
   return(
     <div className="home-gallery-container">
