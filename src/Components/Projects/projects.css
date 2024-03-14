@@ -220,4 +220,14 @@
 .project-external-link{
   display: block;
 }
+ 
+@media (max-width: 768px) {
+  .project-card{
+    margin: 2em 1em
+  }
 
+  .project-card-description-title{
+    font-size: 1em;
+  }
+
+}  
