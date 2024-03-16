@@ -23,7 +23,7 @@ const TechEntry = ({id}) => {
 
   return(
     <div className="tech-entry">
-      {darkMode
+      {darkMode === "true"
         ? <img src={techEntries[index].logoLight} className="project-tech-logo" alt={techEntries[index].name} />
         : <img src={techEntries[index].logoDark} className="project-tech-logo" alt={techEntries[index].name} />
       }
