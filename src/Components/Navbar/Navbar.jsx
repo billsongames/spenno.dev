@@ -11,8 +11,7 @@ import "./navbar.css"
 
 const Navbar = () => {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext)
-/*   const [initDarkMode, setInitDarkMode] = useState(localStorage.getItem("darkMode"))
-  const [hamburgerActive, setHamburgerActive] = useState(false) */
+  const [hamburgerActive, setHamburgerActive] = useState("false")
 
   const r = document.querySelector(':root');
 
@@ -36,28 +35,31 @@ const Navbar = () => {
 
   const handleHamburgerClick = () => {
     document.querySelector(".navbar-hamburger-links").style.display =
-        (document.querySelector(".navbar-hamburger-links").style.display === "flex")
-          ? "none" 
-          : "flex"
+      (document.querySelector(".navbar-hamburger-links").style.display === "flex")
+        ? "none" 
+        : "flex"
+    setHamburgerActive(hamburgerActive === "true"
+      ? "false"
+      : "true"
+    )
+
   }
   
-/*   useEffect(() => {
+  useEffect(() => {
     document.getElementById("navbar-hamburger-button-image").className =
-      (darkMode === true & hamburgerActive === true)
+      (darkMode === "true" & hamburgerActive === "true"
       ? "navbar-hamburger-button-image-close-darkmode"
 
-      : darkMode === true/*  & document.getElementById("navbar-hamburger-button-image").className === "navbar-hamburger-button-image-close-darkmode"
+      : darkMode === "true" & hamburgerActive === "false"
       ? "navbar-hamburger-button-image-open-darkmode"
 
-      : hamburgerActive === true
+      : darkMode === "false" & hamburgerActive === "true"
       ? "navbar-hamburger-button-image-close"
 
       : "navbar-hamburger-button-image-open"
 
-      console.log(`After click darkmode = ${darkMode}`)
-      console.log(`After click hamburgerActive = ${hamburgerActive}`)
 
-  },[darkMode, hamburgerActive]) */
+    )},[darkMode, hamburgerActive])
 
 
   
@@ -127,9 +129,10 @@ const Navbar = () => {
             alt="Menu button"
             id="navbar-hamburger-button-image"
             onClick={handleHamburgerClick}
-            src={darkMode === "true"
+            classname="navbar-hamburger-button-image-open"
+/*             src={darkMode === "true"
           ? "/assets/images/buttons/menu-open-darkmode.png"
-          : "/assets/images/buttons/menu-open.png"}
+          : "/assets/images/buttons/menu-open.png"} */
 
 /*             className={
             (darkMode === true & hamburgerActive ===true)
