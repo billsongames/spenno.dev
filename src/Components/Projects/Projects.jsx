@@ -45,6 +45,8 @@ const Projects = () => {
             </div>
           </div>
 
+          <div className="footer-divide"></div>
+
           <div className="project-card">
             <div className="project-logo-container">
               <Link to ={"newsdesk"} className="project-logo">
@@ -71,6 +73,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          <div className="footer-divide"></div>
 
           <div className="project-card">
             <div className="project-logo-container">
@@ -99,6 +103,8 @@ const Projects = () => {
             </div>
           </div>
 
+          <div className="footer-divide"></div>
+
           <div className="project-card">
             <div className="project-logo-container">
               <Link to ={"deflektion"} className="project-logo">
@@ -125,6 +131,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          <div className="footer-divide"></div>
 
           <div className="project-card">
             <div className="project-logo-container">
