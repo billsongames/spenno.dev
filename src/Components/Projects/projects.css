@@ -53,12 +53,12 @@
   transition: 0.2s;
 }
 
-.project-card:hover{
+/* .project-card:hover{
   background-color: lightslategray;
-/*   border-width: var(--borderWidth);
+  border-width: var(--borderWidth);
   border-style: solid;
-  border-color: var(--text-color); */
-}
+  border-color: var(--text-color);
+} */
 
 .project-logo-container{
   margin: auto;
