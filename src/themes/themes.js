@@ -1,10 +1,10 @@
 export const themeColors =
 {
   darkColor:  "#101317",
-  lightColor: "#e5e5e5",
+  lightColor: "#f1f1f1",
 
   darkProjectCard: "#101317",
-  lightProjectCard: "#e5e5e5",
+  lightProjectCard: "#f1f1f1",
 
   borderWidth: "3px",
 
