@@ -21,11 +21,13 @@ const Navbar = () => {
     r.style.setProperty("--background-color", themeColors.darkColor)
     r.style.setProperty("--text-color", themeColors.lightColor)
     r.style.setProperty("--project-card-background", themeColors.darkProjectCard)
+    r.style.setProperty("--bgColor", themeColors.darkBGColor)
     
   } else {
     r.style.setProperty("--background-color", themeColors.lightColor)
     r.style.setProperty("--text-color", themeColors.darkColor)
     r.style.setProperty("--project-card-background", themeColors.lightProjectCard)
+    r.style.setProperty("--bgColor", themeColors.lightBGColor)
   }
 
 
