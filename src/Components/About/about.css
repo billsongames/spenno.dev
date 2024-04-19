@@ -27,7 +27,7 @@
 }
 
 .about-title{
-  padding: 0.5em;
+  padding: 0 0.5em;
   font-family: Rubik-Regular, serif;
   font-size: 2em;
   font-weight: bold;
@@ -37,7 +37,7 @@
 }
 
 .about-text{
-  padding: 1em;
+  padding: 0 1em;
   text-align: left;
   font-family: Rubik-Regular, serif;
   font-size: 1em;

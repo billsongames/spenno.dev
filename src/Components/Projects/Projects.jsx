@@ -16,7 +16,7 @@ const Projects = () => {
         Here are some of the projects I've worked on...
       </p>
 
-      <div className="projects-nav">
+      <div className="projects-card-container">
 
         <article className="project-card">
           <div className="project-logo-container">

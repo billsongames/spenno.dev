@@ -14,7 +14,7 @@ const Home = () => {
 
   return(
     <section>
-      <div className="home-container">
+      <div className="home-gallery-container">
         <div className="home-title">
           <strong>DESIGN {arrow} BUILD {arrow} ENJOY</strong>
         </div>

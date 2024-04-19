@@ -29,7 +29,7 @@
   color: var(--text-color)
 }
 
-.projects-nav {
+.projects-card-container{
   width: 100%;
   display: flex;
   flex-direction: column;

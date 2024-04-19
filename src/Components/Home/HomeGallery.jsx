@@ -59,7 +59,7 @@ const HomeGallery = () => {
 
 
   return(
-    <figure className="home-gallery-container">
+    <figure>
       <div className="home-gallery-pic-container">
         <Link to ={images[currentIndex].link}>
           <img className="home-gallery-pic" src={images[currentIndex].src}  />
