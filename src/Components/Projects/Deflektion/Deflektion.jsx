@@ -16,7 +16,7 @@ const Deflektion = () => {
         Deflektion
       </h2>
       <h4 className="project-text">
-        A retro infused brain workout that makes you think ahead.
+        A retro infused brain workout that makes you think ahead
       </h4>
 
       <div className="project-description">
