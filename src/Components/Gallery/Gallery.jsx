@@ -32,26 +32,22 @@ const Gallery = ({appName, imageTotal}) => {
 
 
   return(
-    <section>
-      <div className="gallery-container">
-        <div className="gallery-title">
-          GALLERY
-        </div>
-        <div className="gallery-mainImage">
-          <img
-            className="gallery-mainImage-pic"
-            src={`${path}${imageID}.png`}
-            alt = {`${appName} screenshot ${imageID}`}
-          />
-        </div>
+    <section className="gallery-container">
+      <h2 className="gallery-title">
+        GALLERY
+      </h2>
+      <div className="gallery-mainImage">
+        <img
+          className="gallery-mainImage-pic"
+          src={`${path}${imageID}.png`}
+          alt = {`${appName} screenshot ${imageID}`}
+        />
+      </div>
 
-
-        <div className="gallery-thumb-container">
-          {jsx}
-        </div>
+      <div className="gallery-thumb-container">
+        {jsx}
       </div>
     </section>
-
   )
 }
 
