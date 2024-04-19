@@ -7,7 +7,7 @@ const NavbarLinks = () => {
   const arrow= "=>"
 
   return(
-    <div className="navbar-title-links">
+    <nav className="navbar-title-links">
       <a href="https://www.linkedin.com/in/paul-spencer-38155a214/" target="blank">
         <AboutEntry id="linkedin-square" />         
       </a>
@@ -20,7 +20,8 @@ const NavbarLinks = () => {
       <a href="mailto:spennodev@gmail.com" target="blank">
         <AboutEntry id="email" />
       </a>
-    </div>
+    </nav>
+
   )
 }
 

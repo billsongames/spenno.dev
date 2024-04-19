@@ -13,7 +13,7 @@ const Home = () => {
 
 
   return(
-    <div>
+    <section>
       <div className="home-container">
         <div className="home-title">
           <strong>DESIGN {arrow} BUILD {arrow} ENJOY</strong>
@@ -35,7 +35,7 @@ const Home = () => {
         </div>
       </div>
       <Contact />
-    </div>
+    </section>
   )
 }
 

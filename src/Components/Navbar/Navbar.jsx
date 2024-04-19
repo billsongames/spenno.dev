@@ -74,125 +74,122 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar-container">
-        <div className="navbar-title-container">
-          <Link to={"/"}>
-            <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg" />
-          </Link>
-          <div className="navbar-title-text">
-            <Link to={"/"} style={{ textDecoration: 'none' }}>
-              <div className="navbar-title-name">
-                Paul Spencer
-              </div>
-            </Link>  
-            <NavbarLinks />
+    <nav className="navbar-container">
+      <div className="navbar-title-container">
+        <Link to={"/"}>
+          <img className="navbar-title-profilePic" src="/assets/images/profile/ps.jpeg" />
+        </Link>
+        <div className="navbar-title-text">
+          <Link to={"/"} style={{ textDecoration: 'none' }}>
+            <div className="navbar-title-name">
+              Paul Spencer
+            </div>
+          </Link>  
+          <NavbarLinks />
         </div>
-
-        
-
-
       </div>
 
       <ul className="navbar-links">
         <li>
-          <Link to={"/about"} style={{ textDecoration: 'none' }}>
-            <button className="navbar-link-button">
-              <div className="navbar-link-item">
-                About
-              </div>
-            </button>
-          </Link>
-        </li>
-
-        <li>
-          <Link to={"/projects"} style={{ textDecoration: 'none' }}>
-            <button className="navbar-link-button">
-              <div className="navbar-link-item">
-                Projects
-              </div>
-            </button>
-          </Link>
-        </li>
-
-        <li>
-          <Link to={"/contact"} style={{ textDecoration: 'none' }}>
-            <button className="navbar-link-button">
-              <div className="navbar-link-item">
-                Contact
-              </div>
-            </button>
-          </Link>
-        </li>
-      </ul>
-
-      <div id="navbar-hamburger-menu">
-        <div className="navbar-hamburger-button">
-          <img
-            alt="Menu button"
-            id="navbar-hamburger-button-image"
-            onClick={handleHamburgerClick}
-            classname="navbar-hamburger-button-image-open"
-/*             src={darkMode === "true"
-          ? "/assets/images/buttons/menu-open-darkmode.png"
-          : "/assets/images/buttons/menu-open.png"} */
-
-/*             className={
-            (darkMode === true & hamburgerActive ===true)
-            ? "navbar-hamburger-button-image-close-darkmode"
-      
-            : (darkMode === true)
-            ? "navbar-hamburger-button-image-open-darkmode"
-      
-            : (hamburgerActive === true)
-            ? "navbar-hamburger-button-image-close"
-      
-            : "navbar-hamburger-button-image-open"
-            } */
-               />
-        </div>
-        <ul className="navbar-hamburger-links">
-          <li>
             <Link to={"/about"} style={{ textDecoration: 'none' }}>
-              <button className="navbar-link-button" onClick={handleHamburgerClick}>
+              <button className="navbar-link-button">
                 <div className="navbar-link-item">
                   About
                 </div>
               </button>
             </Link>
-          </li>
+        </li>
 
-          <li>
+        <li>
             <Link to={"/projects"} style={{ textDecoration: 'none' }}>
-              <button className="navbar-link-button" onClick={handleHamburgerClick}>
+              <button className="navbar-link-button">
                 <div className="navbar-link-item">
                   Projects
                 </div>
               </button>
             </Link>
-          </li>
+        </li>
 
-          <li>
+        <li>
             <Link to={"/contact"} style={{ textDecoration: 'none' }}>
-              <button className="navbar-link-button" onClick={handleHamburgerClick}>
+              <button className="navbar-link-button">
                 <div className="navbar-link-item">
                   Contact
                 </div>
               </button>
             </Link>
-          </li>
-        </ul>
+        </li>
+      </ul>
+
+      <div id="navbar-hamburger-menu">
+          <div className="navbar-hamburger-button">
+            <img
+              alt="Menu button"
+              id="navbar-hamburger-button-image"
+              onClick={handleHamburgerClick}
+              classname="navbar-hamburger-button-image-open"
+  /*             src={darkMode === "true"
+            ? "/assets/images/buttons/menu-open-darkmode.png"
+            : "/assets/images/buttons/menu-open.png"} */
+
+  /*             className={
+              (darkMode === true & hamburgerActive ===true)
+              ? "navbar-hamburger-button-image-close-darkmode"
+        
+              : (darkMode === true)
+              ? "navbar-hamburger-button-image-open-darkmode"
+        
+              : (hamburgerActive === true)
+              ? "navbar-hamburger-button-image-close"
+        
+              : "navbar-hamburger-button-image-open"
+              } */
+            />
+          </div>
+          <ul className="navbar-hamburger-links">
+            <li>
+              <Link to={"/about"} style={{ textDecoration: 'none' }}>
+                <button className="navbar-link-button" onClick={handleHamburgerClick}>
+                  <div className="navbar-link-item">
+                    About
+                  </div>
+                </button>
+              </Link>
+            </li>
+
+            <li>
+              <Link to={"/projects"} style={{ textDecoration: 'none' }}>
+                <button className="navbar-link-button" onClick={handleHamburgerClick}>
+                  <div className="navbar-link-item">
+                    Projects
+                  </div>
+                </button>
+              </Link>
+            </li>
+
+            <li>
+              <Link to={"/contact"} style={{ textDecoration: 'none' }}>
+                <button className="navbar-link-button" onClick={handleHamburgerClick}>
+                  <div className="navbar-link-item">
+                    Contact
+                  </div>
+                </button>
+              </Link>
+            </li>
+          </ul>
 
       </div>
-
 
       <div className="navbar-darkmode-toggle">
-        <img src={darkMode === "true"
-          ? "/assets/images/darkmode/lightswitch_on.png"
-          : "/assets/images/darkmode/lightswitch_off.png"}
-          alt="Dark Mode toggle"
-          onClick={() => handleDarkModeClick()} />
+          <img src={darkMode === "true"
+            ? "/assets/images/darkmode/lightswitch_on.png"
+            : "/assets/images/darkmode/lightswitch_off.png"}
+            alt="Dark Mode toggle"
+            onClick={() => handleDarkModeClick()} />
       </div>
-    </div>
+    </nav>
+
+
 
 
 

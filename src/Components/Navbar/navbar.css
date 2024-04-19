@@ -80,7 +80,7 @@
   height: 3em
 }
 
-.navbar-links>li {
+.navbar-links>ul{
   margin: 0 0.5em;
   overflow: hidden;
 }

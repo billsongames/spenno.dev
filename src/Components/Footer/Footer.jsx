@@ -7,14 +7,14 @@ const Footer = () => {
   const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
 
   return(
-    <div className="footer-container">
+    <footer className="footer-container">
       <div className="footer-divide">
       </div>
       <div className="footer-text">
         © 2024 Paul Spencer
       </div>
       
-    </div>
+    </footer>
   )
 }
 

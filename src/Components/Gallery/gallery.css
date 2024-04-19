@@ -50,7 +50,7 @@
 
 .gallery-thumb:hover{
   scale: 1.2;
-  border-color: black;
+  border-color: var(--text-color);
   z-index: 2
 
 }
