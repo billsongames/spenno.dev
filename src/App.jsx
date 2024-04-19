@@ -28,20 +28,22 @@ const App = () => {
       <DarkModeProvider>
         <div className="App">
           <Navbar />
-          <Routes>
-            <Route path = "/" element = {<Home/>} />
-            <Route path = "about" element = {<About/>} />
-            <Route path = "projects">
-              <Route index element = {<Projects />} />
-              <Route path = "radiogram" element = {<Radiogram />} />
-              <Route path = "newsdesk" element = {<NewsDesk />} />
-              <Route path = "deflektion" element = {<Deflektion />} />
-              <Route path = "nasa" element = {<NASA />} />
-              <Route path = "rotadroid" element = {<RotaDroid />} />
-              <Route path = "in-progress" element = {<InProgress />} />
-            </Route>
-            <Route path = "contact" element = {<Contact/>} />
-          </Routes>
+          <main>
+            <Routes>
+              <Route path = "/" element = {<Home/>} />
+              <Route path = "about" element = {<About/>} />
+              <Route path = "projects">
+                <Route index element = {<Projects />} />
+                <Route path = "radiogram" element = {<Radiogram />} />
+                <Route path = "newsdesk" element = {<NewsDesk />} />
+                <Route path = "deflektion" element = {<Deflektion />} />
+                <Route path = "nasa" element = {<NASA />} />
+                <Route path = "rotadroid" element = {<RotaDroid />} />
+                <Route path = "in-progress" element = {<InProgress />} />
+              </Route>
+              <Route path = "contact" element = {<Contact/>} />
+            </Routes>
+          </main>
           <Footer />
         </div>
       </DarkModeProvider>  

@@ -13,8 +13,8 @@ const Home = () => {
 
 
   return(
-    <div>
-      <div className="home-container">
+    <section>
+      <div className="home-gallery-container">
         <div className="home-title">
           <strong>DESIGN {arrow} BUILD {arrow} ENJOY</strong>
         </div>
@@ -35,7 +35,7 @@ const Home = () => {
         </div>
       </div>
       <Contact />
-    </div>
+    </section>
   )
 }
 

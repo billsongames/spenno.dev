@@ -13,13 +13,21 @@
   border-color: var(--text-color);
 }
 
-.contact-heading{
+/* .contact-heading{
   font-size: 2em;
   font-weight: bold;
   color: var(--text-color);
   padding: 0.5em 0;
   text-align: center;
   padding: 0.5em
+} */
+
+.contact-form-title{
+  padding: 0 0.5em;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  color: var(--text-color);
 }
 
 .contact-form{
@@ -30,13 +38,7 @@
   align-items: start;
 }
 
-.contact-form-title{
-  width: 100%;
-  font-size: 2em;
-  font-weight: bold;
-  color: var(--text-color);
-  text-align: left;
-}
+
 
 .contact-form-section{
   margin: 1em auto;

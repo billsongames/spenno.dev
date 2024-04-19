@@ -32,7 +32,7 @@ const Gallery = ({appName, imageTotal}) => {
 
 
   return(
-    <div>
+    <section>
       <div className="gallery-container">
         <div className="gallery-title">
           GALLERY
@@ -50,7 +50,7 @@ const Gallery = ({appName, imageTotal}) => {
           {jsx}
         </div>
       </div>
-    </div>
+    </section>
 
   )
 }

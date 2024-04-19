@@ -59,26 +59,19 @@ const HomeGallery = () => {
 
 
   return(
-    <div className="home-gallery-container">
+    <figure>
       <div className="home-gallery-pic-container">
         <Link to ={images[currentIndex].link}>
           <img className="home-gallery-pic" src={images[currentIndex].src}  />
         </Link>
       </div>
 
-      <div className="home-gallery-nav">
-
-        <div>
-          <Link to ={images[currentIndex].link} className="home-gallery-link">
+      <figcaption className="home-gallery-nav">
+        <Link to ={images[currentIndex].link} className="home-gallery-link">
             {images[currentIndex].title}
           </Link>
-        </div>
-
-
-
-      </div>
-
-    </div>
+      </figcaption>
+    </figure>
   )
 }
 
