@@ -26,7 +26,7 @@ const Home = () => {
         </div>
         <div className="home-about-text">
           <div>
-            Hi. I'm Paul Spencer
+            Hi, I'm Paul Spencer
           </div>
           <div>
             I enjoy building interactive and intuitive user experiences

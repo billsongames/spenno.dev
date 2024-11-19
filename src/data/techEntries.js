@@ -1,6 +1,6 @@
 export const techEntries = [
 
-/*   ###### CODE ###### */
+  /*   ###### CODE ###### */
   {
     id: "css",
     name: "CSS",
@@ -35,7 +35,7 @@ export const techEntries = [
     logoLight: "/assets/images/tech-logos/js-logo-light.png",
     logoDark: "/assets/images/tech-logos/js-logo-dark.png"
   },
-/*   ###### FRONT END ###### */
+  /*   ###### FRONT END ###### */
 
   {
     id: "react",
@@ -51,7 +51,7 @@ export const techEntries = [
     logoDark: "/assets/images/tech-logos/react-atom-logo-dark.png"
   },
 
-/*   ###### BACK END ###### */
+  /*   ###### BACK END ###### */
 
   {
     id: "firebase",
@@ -67,7 +67,14 @@ export const techEntries = [
     logoDark: "/assets/images/tech-logos/supabase-logo-dark.png"
   },
 
-/*   ###### APPS ###### */
+  /*   ###### APPS ###### */
+
+  {
+    id: "menumate",
+    name: "MenuMateradiogram",
+    logoLight: "/assets/images/app-logos/menumate-logo-light.png",
+    logoDark: "/assets/images/app-logos/menumate-logo-dark.png"
+  },
 
   {
     id: "radiogram",

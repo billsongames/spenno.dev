@@ -10,6 +10,7 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
+import MenuMate from './Components/Projects/MenuMate/MenuMate';
 import Radiogram from './Components/Projects/Radiogram/Radiogram';
 import NewsDesk from './Components/Projects/NewsDesk/Newsdesk';
 import NASA from "./Components/Projects/NASA/NASA"
@@ -34,6 +35,7 @@ const App = () => {
               <Route path = "about" element = {<About/>} />
               <Route path = "projects">
                 <Route index element = {<Projects />} />
+                <Route path = "menumate" element = {<MenuMate />} />
                 <Route path = "radiogram" element = {<Radiogram />} />
                 <Route path = "newsdesk" element = {<NewsDesk />} />
                 <Route path = "deflektion" element = {<Deflektion />} />
