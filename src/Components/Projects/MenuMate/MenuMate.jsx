@@ -21,7 +21,9 @@ const MenuMate = () => {
 
       <div className="project-description">
         <p className="project-text">
-          MenuMate blurb
+          Plan your weeks menu by searching for recipes and adding them to a schedule.
+          This creates a list of ingredients, some of which you will most likely already have loitering in the food cupboard.
+          Tick them off to get a slimmed down shopping list and then pop to your favourite supermarche. Easy!
         </p>
 
         <h4 className="project-text">
@@ -29,14 +31,13 @@ const MenuMate = () => {
         </h4>
 
         <ul className="project-features">
-          <li>feature 1</li>
-          <li>feature 2</li>
-          <li>feature 3</li>
-          <li>feature 4</li>
+          <li>Integration with the Edamam API to access 1000's of recipes</li>
+          <li>Search for recipes by region, ingredient and recipe type</li>
+          <li>Create custom shopping lists to prevent unnecessary purchases</li>
         </ul>
 
         <p className="project-text">
-          MenuMate description
+
         </p>
 
         <h4 className="project-section-title">
