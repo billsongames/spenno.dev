@@ -15,6 +15,11 @@ const HomeGallery = () => {
 
   const images = [
     {
+      src: "/assets/images/menumate/menumate_1.png",
+      title: "MenuMate",
+      link: "projects/menumate"
+    },
+    {
       src: "/assets/images/radiogram/radiogram_2.png",
       title: "radiogram",
       link: "projects/radiogram"
