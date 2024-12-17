@@ -54,7 +54,7 @@ const MenuMate = () => {
           <a href="https://menumate.onrender.com/" target="blank">
             <TechEntry id="menumate" />
           </a>
-          <a href="https://github.com/billsongames/menumate" target="blank">
+          <a href="https://github.com/billsongames/menu-mate" target="blank">
             <TechEntry id="github" />
           </a>
         </div>
