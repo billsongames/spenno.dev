@@ -43,13 +43,16 @@ const About = () => {
           <p className="about-text">
             My software development story started back in the 1980s with the humble ZX Spectrum.
             Although it was used mostly for playing games, I did delve into the realms of BASIC programming courtesy of the user manual and recall great joy in making user generated graphics, all 8x8 pixels worth, move about on screen.
-            Throw in a few loops, sound routines and some user interface design and the software development bug was born.
+            With a few loops, sound routines and user interface design thrown in for good measure, the software development bug was born.
           </p>
           <p className="about-text">
-            Fast forward 30 years or so, and although I had never written or even attempted to write anything that remotely resembled a proper video game, I decided I quite fancy the idea of writing one. Eventually, after many, many hours of learning, experimentation, design and coding using the <a href="https://godotengine.org/" target="_blank" rel="noreferrer">Godot Game Engine</a>, my first full game "RotaDroid" was written followed by "Deflektion". These were solo projects and considering I was completely self taught, I'm happy with how they turned out.
+            Fast forward 30 years or so, and although I had never written or even attempted to write anything that remotely resembled a proper video game, I decided I quite fancy the idea of having a go. Eventually, after many, many hours of learning, experimentation, design and coding using the <a href="https://godotengine.org/" target="_blank" rel="noreferrer">Godot Game Engine</a>, my first full game "RotaDroid" was written followed by "Deflektion". These were solo projects and considering I was completely self taught, I'm happy with how they turned out.
           </p>
           <p className="about-text">
-            In September 2022, I enrolled on a software engineering course at <a href="https://www.commandshift.co/" target= "_blank" rel="noreferrer">Command Shift</a> and after building a solid foundation in HTML, CSS, JavaScript, backend and frontend technologies particularly React, I graduated in March 2023.
+            In September 2022, I enrolled on a software engineering course at <a href="https://www.commandshift.co/" target= "_blank" rel="noreferrer">Command Shift</a> and after building a solid foundation in HTML, CSS, JavaScript, backend and frontend technologies, I graduated in March 2023.
+          </p>
+          <p className="about-text">
+            Since then, I have broadened my coding expertise and gained experience with different libraries and platforms.
           </p>
         </div>
       </div>
