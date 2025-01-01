@@ -3,7 +3,7 @@ import React from "react";
 import AboutEntry from "../About/AboutEntry";
 import "./navbar.css"
 
-const NavbarLinks = () => {
+const NavbarSocialLinks = () => {
   const arrow= "=>"
 
   return(
@@ -25,4 +25,4 @@ const NavbarLinks = () => {
   )
 }
 
-export default NavbarLinks
+export default NavbarSocialLinks
