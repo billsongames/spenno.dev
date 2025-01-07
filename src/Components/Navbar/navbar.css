@@ -1,4 +1,4 @@
-@font-face {
+ÿ@font-face {
   font-family: "Rubik-Regular";
   src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
 }
@@ -199,6 +199,6 @@
 
 @media (max-width: 425px) {
   .navbar-title-name{
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
