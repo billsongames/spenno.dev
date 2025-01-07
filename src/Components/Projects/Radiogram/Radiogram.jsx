@@ -4,17 +4,19 @@ import { DarkModeContext } from "../../../context/DarkModeContext";
 import TechEntry from "../../TechEntry/TechEntry"
 import Gallery from "../../Gallery/Gallery";
 
+import "../projectPage.css"
 
 const Radiogram = () => {
-  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
+  const { darkMode, toggleDarkMode } = useContext(DarkModeContext)
   const appName = "radiogram"
   const imageTotal = 6
 
-  return(
-      <section className="project-page-container">
-        <h2 className="project-title">
+  return (
+    <section className="page-container">
+      <div className="project-page-container">
+        <div className="box-title">
           radiogram
-        </h2>
+        </div>
         <h4 className="project-text">
           A radio streaming app to enhance your listening pleasure
         </h4>
@@ -52,7 +54,7 @@ const Radiogram = () => {
 
           <h4 className="project-section-title">
             Links:
-          </h4>  
+          </h4>
           <div className="project-tech-list">
             <a href="https://radiogram.onrender.com/" target="blank">
               <TechEntry id="radiogram" />
@@ -61,14 +63,12 @@ const Radiogram = () => {
               <TechEntry id="github" />
             </a>
           </div>
-        <div>
-          <Gallery appName={appName} imageTotal={imageTotal} />
+          <div>
+            <Gallery appName={appName} imageTotal={imageTotal} />
+          </div>
         </div>
-        </div>
-
-
-
-      </section>
+      </div>
+    </section>
 
   )
 }

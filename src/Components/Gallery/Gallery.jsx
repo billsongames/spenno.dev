@@ -9,7 +9,7 @@ const Gallery = ({appName, imageTotal}) => {
   const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
 
   const [imageID, setImageID] = useState(1)
-  const path = `/assets/images/${appName}/${appName}_`
+  const path = `/assets/images/projects/${appName}/${appName}_`
 
   const onImageClick = (event) => {
     setImageID(event.target.id)
@@ -18,14 +18,16 @@ const Gallery = ({appName, imageTotal}) => {
   const jsx = []
   for (let i=1; i<imageTotal+1; i++) {
     jsx.push(
+      <div className="gallery-thumb">
         <img
           key={i}
           id = {i}
-          className="gallery-thumb"
+          
           src={`${path}${i}.png`}
           onClick={onImageClick}
           alt = {`Screenshot ${i}`}
         />
+      </div>  
     )
   }
 
@@ -33,9 +35,9 @@ const Gallery = ({appName, imageTotal}) => {
 
   return(
     <section className="gallery-container">
-      <h2 className="gallery-title">
+      <div className="box-title">
         GALLERY
-      </h2>
+      </div>
       <div className="gallery-mainImage">
         <img
           className="gallery-mainImage-pic"

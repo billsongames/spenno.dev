@@ -117,7 +117,7 @@ const Navbar = () => {
             alt="Menu button"
             id="navbar-hamburger-button-image"
             onClick={toggleNavDrawer}
-            classname="navbar-hamburger-button-image-open"
+            className="navbar-hamburger-button-image-open"
             src={darkMode === "true"
               ? "/assets/images/buttons/menu-open-darkmode.png"
               : "/assets/images/buttons/menu-open.png"}

@@ -6,7 +6,7 @@
 .App {
   margin: auto;
   width:100%;
-  max-width:1280px;
+  max-width:968px;
   text-align: center;
 }
 
@@ -22,10 +22,41 @@
 .text-section{
   margin: 2em 0;
   padding: 1em;
-  background-color: var(background-color);
+  background-color: var(--background-color);
   border-radius: 16px;
   box-shadow: 0px 4px 8px;
 }
+
+.page-container {
+  margin: 1em
+}
+
+.box-title {
+  font-family: Rubik-Regular, serif;
+  padding: 0.5em 0.5em 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.box-subheading{
+  font-family: Rubik-Regular, serif;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.box-text {
+  font-family: Rubik-Regular, serif;
+  padding: 1em;
+  font-size: 1em;
+  text-align: left;
+  color: var(--text-color);
+}
+
 
 
 
