@@ -16,7 +16,7 @@
 }
 
 .home-gallery-link{
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
   color: var(--text-color);
   text-decoration: underline 0.2em var(--background-color);;
