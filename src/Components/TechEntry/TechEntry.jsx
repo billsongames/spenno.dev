@@ -5,23 +5,24 @@ import { techEntries } from "../../data/techEntries";
 
 import "./techEntry.css"
 
-const TechEntry = ({id}) => {
+const TechEntry = ({ id }) => {
   const [index, setIndex] = useState(0)
   const [name, setName] = useState("")
 
-  const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
+  const { darkMode, toggleDarkMode } = useContext(DarkModeContext)
 
   useEffect(() => {
     const matchIndex = async () => {
-      setIndex(techEntries.findIndex(techEntry => 
-        techEntry.id === id))
+      setIndex(techEntries.findIndex(techEntry =>
+        techEntry.id === id
+      ))
     }
 
     matchIndex()
-    
-  },[])
 
-  return(
+  }, [])
+
+  return (
     <div className="tech-entry">
       {darkMode === "true"
         ? <img src={techEntries[index].logoLight} className="project-tech-logo" alt={techEntries[index].name} />

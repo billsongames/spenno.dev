@@ -1,0 +1,190 @@
+.project-card-desktop {
+  grid-template-columns: 25% 75%;
+  padding: 1em;
+  position: relative;
+  align-content: center;
+  background-color: var(--project-card-background);
+  transition: 0.2s;
+}
+
+.project-card-desktop-image-container {
+  transition: 0.4s;
+}
+
+.project-card-desktop-image {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  border: 2px;
+  border-style: solid;
+  border-color: var(--text-color);;
+  
+}
+
+.project-card-desktop-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.project-card-desktop-description-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: left;
+  margin: 0 1em
+}
+
+.project-card-desktop-description-text {
+  margin: 0 1.5em;
+  font-size: 1em;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.project-card-desktop-description-link {
+  margin: 1em 0.5em 0 0.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-content: end;
+  padding: 0 1em
+}
+
+.project-card-desktop-link-button {
+  padding: 0.75em;
+  width: 8em;
+  background-color: var(--text-color);
+  border: none;
+  border-radius: 1em;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.project-card-desktop-link-item {
+  padding: 0 1em;
+  /*   font-family: Rubik-Regular, serif; */
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--background-color);
+  text-decoration: underline 0.2em var(--text-color);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 0.2s, text-underline-offset 0.2s
+}
+
+.project-card-desktop-link-button:hover .project-card-desktop-link-item {
+  text-decoration-color: var(--background-color);
+  text-underline-offset: 0.4em;
+}
+
+/* ####################################################### */
+
+.project-card-mobile {
+  display: grid;
+  grid-template-rows: auto;
+  padding: 1em;
+  position: relative;
+  align-content: center;
+  background-color: var(--project-card-background);
+  transition: 0.2s;
+}
+
+.project-card-mobile-image-container {
+  height: auto;
+  transition: 0.4s;
+}
+
+.project-card-mobile-image {
+  width: 100%;
+  transition: 0.4s;
+  border: 2px;
+  border-style: solid;
+  border-color: var(--text-color);;
+  
+}
+
+.project-card-mobile-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 0.5em 0
+
+}
+
+.project-card-mobile-description-title {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.project-card-mobile-description-text {
+  font-size: 1em;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.project-card-mobile-description-link {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-content: end;
+
+}
+
+.project-card-mobile-link-button {
+
+  padding: 0.5em;
+  width: 8em;
+  background-color: var(--text-color);
+  border: none;
+  border-radius: 1em;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.project-card-mobile-link-item {
+  padding: 0 1em;
+  /*   font-family: Rubik-Regular, serif; */
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--background-color);
+  text-decoration: underline 0.2em var(--text-color);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 0.2s, text-underline-offset 0.2s
+}
+
+.project-card-mobile-link-button:hover .project-card-desktop-link-item {
+  text-decoration-color: var(--background-color);
+  text-underline-offset: 0.4em;
+}
+
+/* ####################################################### */
+
+@media (max-width: 768px) {
+  .project-card-desktop {
+    display: none;
+  }
+
+  .project-card-mobile {
+    display: grid;
+}
+
+@media (min-width: 768px) {
+  .project-card-mobile {
+    display: none;
+  }
+  .project-card-desktop {
+    display: grid;
+  }  
+
+
+
+
+
+}
+}

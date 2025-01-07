@@ -1,10 +1,4 @@
-@font-face {
-  font-family: "Rubik-Regular";
-  src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
-}
-
 .projects-container {
-  margin: 2em;
   background-color: var(--background-color);
   border-radius: 1em;
   border-width: var(--borderWidth);
@@ -13,7 +7,7 @@
   border-color: var(--text-color);
 }
 
-.projects-title{
+.projects-title {
   padding: 0 0.5em;
   font-size: 2em;
   font-weight: bold;
@@ -21,225 +15,38 @@
   color: var(--text-color);
 }
 
-.projects-intro{
+.projects-intro {
   padding: 0 1em;
   text-align: left;
-  font-family: Rubik-Regular, serif;
+  /* font-family: Rubik-Regular, serif; */
   font-size: 1em;
   color: var(--text-color)
 }
 
-.projects-card-container{
+.projects-card-container-desktop {
   width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   background-color: var(--background-color);
-
 }
 
-.project-card {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin: 2em;
-  padding: 1em;
-  position: relative;
-  align-content: center;
-  border-radius: 1em;
 
-  background-color: var(--project-card-background);
-
-  transition: 0.2s;
-}
-
-/* .project-card:hover{
-  background-color: lightslategray;
-  border-width: var(--borderWidth);
-  border-style: solid;
-  border-color: var(--text-color);
-} */
-
-.project-logo-container{
-  margin: auto;
-  width: 90%;
-  height: 100%;
-  border-radius: 1em;
-  object-fit: cover;
-  transition: 0.4s;
-}
-
-.project-logo {
-  margin: auto;
-  width: 80%;
-  height: 100%;
-  border-radius: 1em;
-  object-fit: cover;
-  transition: 0.4s;
-}
-
-/* .project-logo-container:hover{
-  scale: 1.1
-} */
-
-.project-logo > img{
-  width: 100%;
-/*   border-radius: 1em; */
-  object-fit: cover;
-  border: 2px solid;
-  border-color: var(--text-color);
-}
-
-/* .project-card-description {
-  display: grid;
-  grid-template-rows: 80% 20%;
-} */
-
-.project-card-description-title{
-  font-size: 1.5em;
-  font-weight: bold;
-  padding-bottom: 12px;
-}
-
-.project-card-description-text{
-  padding: 0 1em;
-  font-size:1em;
-  color: var(--text-color);
-  text-align: left;
-}
-
-.project-link{
-  margin: 1em 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: left;
-  align-content: end;
-  padding: 0 1em
-}
-
-.project-link-button{
-  padding: 0.75em;
-  width: 8em;
-  background-color: var(--text-color);
-  border: none;
-  border-radius: 1em;
-  transition-duration: 0.2s;
-  cursor: pointer;
-}
-
-.project-link-item{
-  padding: 0 1em;
-  font-family: Rubik-Regular, serif;
-  font-size: 1em;
-  font-weight: bold;
-  color: var(--background-color);
-  text-decoration: underline 0.2em var(--text-color);
-  text-underline-offset: 0.2em;
-  transition: text-decoration-color 0.2s, text-underline-offset 0.2s
-}
-
-.project-link-button:hover .project-link-item{
-  text-decoration-color: var(--background-color);
-  text-underline-offset: 0.4em;
-}
 
 /* #################################################################### */
 
-.project-page-container{
-  margin: 2em;
-  font-family: Rubik-Regular, serif;
-  font-size: 1em;
-  text-align: left;
-  background-color: var(--background-color);
-  padding: 0.5em;
-  border-width: var(--borderWidth);;
-  border-style: solid;
-  border-radius: 1em;
-  border-color: var(--text-color);
-}
 
-.project-title{
-  padding: 0 0.5em;
-  font-family: Rubik-Regular, serif;
-  font-size: 2em;
-  font-weight: bold;
-  color: var(--text-color)
-}
-
-.project-section-title{
-  padding: 0 1em;
-  font-family: Rubik-Regular, serif;
-  font-weight: bold;
-  color: var(--text-color)
-
-}
-
-
-.project-features{
-  list-style: square;
-  color: var(--text-color);
-  font-size:1em;
-}
-
-.project-text-heading{
-  text-align: left;
-  font-family: Rubik-Regular, serif;
-  font-size: 1.5em;
-  color: var(--text-color)
-}
-
-.project-text{
-  padding: 0 1em;
-  text-align: left;
-  font-family: Rubik-Regular, serif;
-  font-size: 1em;
-  color: var(--text-color)
-}
-
-.project-text > a{
-  max-width: 6em
-}
-
-.project-tech-list{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-items: center;
-  justify-content: start;
-  padding: 0 1em 0 1em
-}
-
-.project-tech-list > a{
-  display: block;
-}
-
-
-.project-tech-logo{
-  max-width: 8em;
-}
-
-.project-tech-text{
-  padding: 0 1em;
-  font-size: 1em;
-  align-content: center;
-}
-
-.project-external-link{
-  display: block;
-}
-
-@media (max-width: 768px) {
-  .project-card{
-    margin: 2em 1em
+/* @media (max-width: 768px) {
+  .projects-container  {
+    background-color: red;
   }
 
-  .project-card-description-title{
+  .project-card-description-title {
     font-size: 1em;
   }
 
-  .project-title{
+  .project-title {
     font-size: 1.5em;
   }
-
-}  
+}  */

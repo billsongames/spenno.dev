@@ -1,0 +1,81 @@
+.project-page-container {
+
+  font-family: Rubik-Regular, serif;
+  font-size: 1em;
+  text-align: left;
+  background-color: var(--background-color);
+  padding: 0.5em;
+  border-width: var(--borderWidth);
+  ;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: var(--text-color);
+}
+
+.project-title {
+  padding: 0 0.5em;
+  font-family: Rubik-Regular, serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--text-color)
+}
+
+.project-section-title {
+  padding: 0 1em;
+  font-family: Rubik-Regular, serif;
+  font-weight: bold;
+  color: var(--text-color)
+}
+
+
+.project-features {
+  list-style: square;
+  color: var(--text-color);
+  font-size: 1em;
+}
+
+.project-text-heading {
+  text-align: left;
+  font-family: Rubik-Regular, serif;
+  font-size: 1.5em;
+  color: var(--text-color)
+}
+
+.project-text {
+  padding: 0 1em;
+  text-align: left;
+  font-family: Rubik-Regular, serif;
+  font-size: 1em;
+  color: var(--text-color)
+}
+
+.project-text>a {
+  max-width: 6em
+}
+
+.project-tech-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: start;
+  padding: 0 1em 0 1em
+}
+
+.project-tech-list>a {
+  display: block;
+}
+
+.project-tech-logo {
+  max-width: 8em;
+}
+
+.project-tech-text {
+  padding: 0 1em;
+  font-size: 1em;
+  align-content: center;
+}
+
+.project-external-link {
+  display: block;
+}

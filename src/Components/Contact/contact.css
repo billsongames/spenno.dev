@@ -4,7 +4,7 @@
 }
 
 .contact-container{
-  margin: 2em;
+  margin: 1em 0;
   background-color: var(--background-color);
   border-width: var(--borderWidth);
   border-style: solid;
@@ -23,7 +23,7 @@
 } */
 
 .contact-form-title{
-  padding: 0 0.5em;
+  padding: 0.5em 0.5em 0;
   font-size: 2em;
   font-weight: bold;
   text-align: left;
@@ -35,25 +35,30 @@
   padding: 1em;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
 }
 
-
-
 .contact-form-section{
-  margin: 1em auto;
-  width: 98%;
+  margin: 0.5em 0;
+  width: 99%;
   font-size: 1em;
   font-weight: bold;
+  border: 1px;
+  border-style: solid;
+  border-color: var(--text-color);
 }
 
 .contact-form-message{
-  margin: 1em auto;
-  width: 98%;
+  margin: 0.5em auto;
+  width: 99%;
   height: 12em;
   font-size: 1em;
   font-weight: bold;
+  border: 1px;
+  border-style: solid;
+  border-color: var(--text-color);
 }
+
 
 .contact-form-buttons-container{
   width: 100%;
