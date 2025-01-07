@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import { DarkModeContext } from "../../context/DarkModeContext";
 
 import HomeGallery from "./HomeGallery";
-import Contact from "../Contact/Contact"
 
 import "./home.css"
 
@@ -39,7 +38,7 @@ const Home = () => {
       <div className="page-container">
         <div className="home-gallery-container">
           <div className="home-title">
-            <strong>DESIGN {arrow} BUILD {arrow} ENJOY</strong>
+            DESIGN {arrow} BUILD {arrow} ENJOY
           </div>
           <HomeGallery />
         </div>
