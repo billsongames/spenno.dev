@@ -65,7 +65,7 @@ const HomeGallery = () => {
 
   return (
     <div className="home-gallery-pic-container">
-      <Link>
+      <Link to={images[currentIndex].link}>
         <img className="home-gallery-pic" src={images[currentIndex].src} />
       </Link>
 
