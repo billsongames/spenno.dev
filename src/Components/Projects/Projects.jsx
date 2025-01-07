@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { DarkModeContext } from "../../context/DarkModeContext";
 import { Link } from 'react-router-dom';
 
-import ProjectCardDesktop from "./ProjectCardDesktop";
+import ProjectCard from "./ProjectCard";
 
 import "./projects.css"
 
@@ -20,27 +20,27 @@ const Projects = () => {
         </div>
 
         <div className="project-cards-container-desktop">
-          <ProjectCardDesktop projectId="MenuMate" />
+          <ProjectCard projectId="MenuMate" />
 
           <div className="footer-divide"></div>
 
-          <ProjectCardDesktop projectId="radiogram" />
+          <ProjectCard projectId="radiogram" />
 
           <div className="footer-divide"></div>
 
-          <ProjectCardDesktop projectId="NewsDesk" />
+          <ProjectCard projectId="NewsDesk" />
 
           <div className="footer-divide"></div>
 
-          <ProjectCardDesktop projectId="NASA Image Search" />
+          <ProjectCard projectId="NASA Image Search" />
 
           <div className="footer-divide"></div>
 
-          <ProjectCardDesktop projectId="Deflektion" />
+          <ProjectCard projectId="Deflektion" />
 
           <div className="footer-divide"></div>
 
-          <ProjectCardDesktop projectId="RotaDroid" />
+          <ProjectCard projectId="RotaDroid" />
         </div>
       </div>
     </section>
