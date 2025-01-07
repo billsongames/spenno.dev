@@ -31,8 +31,8 @@ const NASA = () => {
           <ul className="project-features">
             <li>Photos of Near-Earth Objects </li>
             <li>Photos of Deep Space Objects</li>
-            <li>Photos of spacecraft</li>
             <li>Photos of planets</li>
+            <li>Photos of spacecraft</li>
             <li>Searching for and viewing all of the above and more</li>
           </ul>
 
