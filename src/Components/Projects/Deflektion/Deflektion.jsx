@@ -46,7 +46,7 @@ const Deflektion = () => {
           </p>
 
           <p className="project-text">
-            Deflektion is available for Android and Windows platforms.
+            Deflektion is available for Window.
           </p>
 
           <h4 className="project-section-title">
