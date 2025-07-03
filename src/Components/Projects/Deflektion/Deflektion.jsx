@@ -46,7 +46,7 @@ const Deflektion = () => {
           </p>
 
           <p className="project-text">
-            Deflektion is available for Window.
+            Deflektion is available for PC.
           </p>
 
           <h4 className="project-section-title">

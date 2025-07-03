@@ -39,7 +39,7 @@ const RotaDroid = () => {
             Coded from scratch using Godot game engine, this was my first full game release and my first venture into the world of coding.
           </div>
           <div className="project-text">
-            RotaDroid is available for Windows.
+            RotaDroid is available for PC.
           </div>
 
 
