@@ -18,11 +18,7 @@ const About = () => {
             Hi. I'm Paul Spencer, a software developer based in Doncaster, UK. I enjoy building interactive and intuitive user experiences.
           </div>
           <div className="box-text">
-            I also have proficiency developing video games with two full releases on PC.
-          </div>
-          <div className="box-text">
-            I have a strong enthusiasm for anything to do with the 1980s, particularly retro game related stuff and rock music.
-            This is probably why I enjoy playing video games and electric guitar, although not necessarily at the same time, unless it's a quick blast on Guitar Hero.
+            I have completed a six month distance learning software development bootcamp, and since graduating I've worked on personal projects building on the knowledge gained in the course. I have also designed, developed and published games for mobile and PC.
           </div>
           <div className="box-subheading">
             Tech skills:
