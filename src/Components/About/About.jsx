@@ -48,7 +48,7 @@ const About = () => {
             In September 2022, I enrolled on a software engineering course at <a href="https://www.commandshift.co/" target="_blank" rel="noreferrer">Command Shift</a> and after building a solid foundation in HTML, CSS, JavaScript, backend and frontend technologies, I graduated in March 2023.
           </div>
           <div className="box-text">
-            Since then, I have broadened my coding expertise and worked on personal projects and gained experience with different libraries and services such as MaterialUI and Firebase.
+            Since then, I have broadened my coding expertise and worked on personal projects and gained experience with different libraries and services such as Material UI and Firebase.
           </div>
         </div>
       </div>
