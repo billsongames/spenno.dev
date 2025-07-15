@@ -15,10 +15,10 @@ const About = () => {
       <div className="page-container">
         <div className="about-intro-container">
           <div className="box-text">
-            Hi. I'm Paul Spencer, a software developer based in Doncaster, UK. I enjoy building interactive and intuitive user experiences.
+            Hi. I'm Paul Spencer, a software developer based in Doncaster, UK.
           </div>
           <div className="box-text">
-            I have completed a six month distance learning software development bootcamp, and since graduating I've worked on personal projects building on the knowledge gained in the course. I have also designed, developed and published games for mobile and PC.
+            I have completed a six month distance learning software development bootcamp, and since graduating I have worked on personal projects building on the knowledge gained in the course. I have also designed, coded and published games for mobile and PC. I am especially interested in building systems that are user-centred and experiences that are interactive and intuitive.
           </div>
           <div className="box-subheading">
             Tech skills:
@@ -46,9 +46,9 @@ const About = () => {
           </div>
           <div className="box-text">
             In September 2022, I enrolled on a software engineering course at <a href="https://www.commandshift.co/" target="_blank" rel="noreferrer">Command Shift</a> and after building a solid foundation in HTML, CSS, JavaScript, backend and frontend technologies, I graduated in March 2023.
-          </div>  
+          </div>
           <div className="box-text">
-            Since then, I have broadened my coding expertise and gained experience with different libraries and platforms.
+            Since then, I have broadened my coding expertise and worked on personal projects and gained experience with different libraries and services such as MaterialUI and Firebase.
           </div>
         </div>
       </div>
